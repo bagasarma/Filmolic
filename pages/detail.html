@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Film - filmolic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { colors: { base: '#0b0b12', surface: '#16161f', 'surface-2': '#22222e', accent: '#6366f1', 'accent-soft': '#a5b4fc' }, fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] } } } }
+  </script>
+  <style> body { background-color: #0b0b12; color: #f4f4f5; } .no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { scrollbar-width: none; } </style>
+</head>
+<body class="min-h-screen flex flex-col font-sans antialiased relative">
+  
+  <header class="sticky top-0 z-50 border-b border-white/5 bg-surface/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+      <div class="flex items-center gap-8">
+        <a href="index.html" class="text-xl font-extrabold tracking-tight text-white">filmolic</a>
+        <ul class="flex items-center gap-5 text-sm font-medium text-zinc-400">
+          <li><a href="index.html" class="transition hover:text-white">Beranda</a></li>
+          <li><a href="favorit.html" class="transition hover:text-white">Favorit</a></li>
+          <li><a href="langganan.html" class="transition hover:text-white">Premium</a></li>
+        </ul>
+      </div>
+      <a href="index.html" class="text-sm text-zinc-400 hover:text-white flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg> Kembali
+      </a>
+    </nav>
+  </header>
+
+  <div class="relative w-full h-[40vh] sm:h-[55vh] bg-surface-2">
+    <img id="movie-backdrop" src="" alt="Backdrop" class="w-full h-full object-cover opacity-30">
+    <div class="absolute inset-0 bg-gradient-to-t from-base via-base/80 to-transparent"></div>
+  </div>
+
+  <main class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 -mt-32 sm:-mt-48 lg:-mt-56 w-full flex-grow pb-12">
+    <div class="flex flex-col md:flex-row gap-8 lg:gap-12">
+      <!-- POSTER -->
+      <div class="w-48 sm:w-64 md:w-72 shrink-0 mx-auto md:mx-0">
+        <div class="aspect-[2/3] overflow-hidden rounded-2xl bg-surface ring-1 ring-white/10 shadow-2xl relative">
+          <img id="movie-poster" src="" alt="Poster" class="w-full h-full object-cover hidden">
+          <div id="movie-badge" class="absolute top-2 left-2 z-10 hidden"></div>
+        </div>
+      </div>
+      
+      <!-- INFORMASI -->
+      <div class="flex flex-col justify-end pt-4 md:pt-12">
+        <h1 id="movie-title" class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-3">Memuat...</h1>
+        
+        <div class="flex flex-wrap items-center gap-4 text-sm font-medium text-zinc-400 mb-6">
+          <span id="movie-year" class="px-2 py-1 bg-surface-2 rounded-md ring-1 ring-white/5">-</span>
+          <span id="movie-genre">-</span>
+          <div class="flex items-center gap-1 text-accent-soft px-2 py-1 bg-accent/10 rounded-md">
+            <span id="movie-rating" class="text-white font-bold">-</span> <span class="text-xs opacity-70">/ 10</span>
+          </div>
+          <button id="fav-btn" onclick="toggleFav(event)" class="flex items-center gap-2 px-3 py-1.5 bg-surface-2 hover:bg-surface border border-white/10 rounded-md transition text-white">
+            <svg id="fav-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span id="fav-text">Simpan Favorit</span>
+          </button>
+        </div>
+
+        <div id="action-container" class="mb-8"></div>
+
+        <div class="mb-10 max-w-3xl">
+          <h2 class="text-lg font-bold text-white mb-3">Sinopsis</h2>
+          <p id="movie-overview" class="text-white leading-relaxed">Sedang memuat sinopsis...</p>
+        </div>
+
+        <div class="max-w-4xl">
+          <h2 class="text-lg font-bold text-white mb-4">Pemeran Utama</h2>
+          <div id="movie-cast" class="flex gap-4 sm:gap-6 overflow-x-auto no-scrollbar pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
+             <p class="text-sm text-zinc-500">Belum ada data pemain.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- MODALS -->
+  <div id="modal-watch" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="bg-surface w-full max-w-sm rounded-2xl p-6 ring-1 ring-white/10 shadow-2xl text-center">
+      <h3 class="text-xl font-bold text-white mb-2">Selamat Menonton</h3>
+      <p class="text-sm text-zinc-400 mb-6">Menyiapkan server pemutaran...</p>
+      <button onclick="document.getElementById('modal-watch').classList.add('hidden')" class="w-full py-2.5 rounded-lg bg-accent text-white font-bold transition shadow-lg">Oke</button>
+    </div>
+  </div>
+
+  <div id="modal-locked" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="bg-surface w-full max-w-md rounded-2xl p-6 ring-1 ring-white/10 shadow-2xl text-center">
+      <h3 class="text-xl font-bold text-white mb-2">Akses Terkunci</h3>
+      <p class="text-sm text-zinc-400 mb-6">Anda harus Login terlebih dahulu atau berlangganan paket Premium untuk menonton film eksklusif ini.</p>
+      <div class="flex gap-3">
+        <button onclick="document.getElementById('modal-locked').classList.add('hidden')" class="flex-1 py-2.5 rounded-lg bg-surface-2 text-white text-sm font-semibold transition">Batal</button>
+        <button onclick="window.location.href='login.html'" class="flex-1 py-2.5 rounded-lg bg-white text-black text-sm font-bold transition">Login</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const movieIdStr = urlParams.get('id');
+    const movieId = parseInt(movieIdStr);
+    let isFavorite = false;
+    
+    // Ambil data user dari session storage asli
+    const userSession = JSON.parse(localStorage.getItem('userSession'));
+
+    function showWatchModal() { document.getElementById('modal-watch').classList.remove('hidden'); }
+    function showLockedModal() { document.getElementById('modal-locked').classList.remove('hidden'); }
+
+    // Cek Status Favorit dari Database
+    async function checkFavoriteStatus() {
+      if (userSession) {
+        try {
+          const res = await fetch(`http://localhost:3000/api/favorites/${userSession.id}`);
+          const favorites = await res.json();
+          isFavorite = favorites.includes(movieId);
+        } catch (err) {
+          console.error("Gagal mengecek status favorit", err);
+        }
+      }
+      
+      const icon = document.getElementById('fav-icon');
+      if (isFavorite) { 
+        icon.setAttribute('fill', 'red'); 
+        icon.setAttribute('stroke', 'red'); 
+        document.getElementById('fav-text').innerText = 'Tersimpan'; 
+      } else { 
+        icon.setAttribute('fill', 'none'); 
+        icon.setAttribute('stroke', 'currentColor'); 
+        document.getElementById('fav-text').innerText = 'Simpan Favorit'; 
+      }
+    }
+
+    // Toggle Favorit ke Database
+    async function toggleFav(e) {
+      e.preventDefault();
+      
+      if (!userSession) {
+        alert("Silakan login terlebih dahulu!");
+        window.location.href = 'login.html';
+        return;
+      }
+
+      try {
+        const res = await fetch('http://localhost:3000/api/favorites/toggle', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId: userSession.id, movieId: movieId })
+        });
+        const data = await res.json();
+        
+        if (data.success) {
+          await checkFavoriteStatus(); 
+        }
+      } catch (err) {
+        alert("Gagal menghubungi server.");
+      }
+    }
+
+    async function loadMovieDetail() {
+      if (!movieId) return;
+      try {
+        const res = await fetch('http://localhost:3000/api/movies');
+        const movies = await res.json();
+        const m = movies.find(film => film.id === movieId);
+
+        if (m) {
+          document.title = `${m.title} - filmolic`;
+          document.getElementById('movie-title').textContent = m.title;
+          document.getElementById('movie-year').textContent = m.year;
+          document.getElementById('movie-genre').textContent = m.genre;
+          document.getElementById('movie-rating').textContent = m.rating.toFixed(1);
+          document.getElementById('movie-overview').textContent = m.overview;
+          document.getElementById('movie-poster').src = m.poster;
+          document.getElementById('movie-poster').classList.remove('hidden');
+          if (m.backdrop) { document.getElementById('movie-backdrop').src = m.backdrop; }
+
+          const badgeEl = document.getElementById('movie-badge');
+          const actionContainer = document.getElementById('action-container');
+          
+          if (m.is_premium) {
+            badgeEl.innerHTML = `<span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold rounded shadow">PREMIUM</span>`;
+            badgeEl.classList.remove('hidden');
+            
+            // Cek akses menggunakan akun sesungguhnya
+            if (userSession && (userSession.role === 'admin' || userSession.is_premium)) {
+              actionContainer.innerHTML = `<button onclick="showWatchModal()" class="px-8 py-3 bg-accent hover:bg-indigo-600 text-white font-bold rounded-lg transition flex items-center gap-2 shadow-lg"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Tonton Film</button>`;
+            } else {
+              actionContainer.innerHTML = `<button onclick="showLockedModal()" class="inline-flex px-8 py-3 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 text-black font-extrabold rounded-lg transition items-center gap-2 shadow-xl"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Akses Terkunci</button>`;
+            }
+          } else {
+            badgeEl.innerHTML = `<span class="bg-green-500 text-white px-2 py-1 text-xs font-bold rounded shadow">GRATIS</span>`;
+            badgeEl.classList.remove('hidden');
+            actionContainer.innerHTML = `<button onclick="showWatchModal()" class="px-8 py-3 bg-accent hover:bg-indigo-600 text-white font-bold rounded-lg transition flex items-center gap-2 shadow-lg"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Tonton Film</button>`;
+          }
+
+          const castContainer = document.getElementById('movie-cast');
+          if (m.cast && m.cast.length > 0) {
+            castContainer.innerHTML = m.cast.map(actor => {
+              const imgSrc = actor.photo ? actor.photo : `https://ui-avatars.com/api/?name=${encodeURIComponent(actor.name)}&background=22222e&color=a5b4fc&rounded=true`;
+              return `<div class="flex flex-col items-center gap-2 w-20 sm:w-24 shrink-0 text-center"><div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-surface-2 overflow-hidden ring-1 ring-white/10"><img src="${imgSrc}" class="w-full h-full object-cover"></div><span class="text-xs font-medium text-zinc-300">${actor.name}</span></div>`;
+            }).join('');
+          }
+        }
+      } catch (err) {}
+    }
+
+    async function init() {
+      await checkFavoriteStatus();
+      loadMovieDetail();
+    }
+
+    init();
+  </script>
+</body>
+</html>

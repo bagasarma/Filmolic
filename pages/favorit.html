@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorit Saya - filmolic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { base: '#0b0b12', surface: '#16161f', 'surface-2': '#22222e', accent: '#6366f1', 'accent-soft': '#a5b4fc' },
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #0b0b12; color: #f4f4f5; }
+  </style>
+</head>
+
+<body class="min-h-screen font-sans antialiased">
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-20 border-b border-white/5 bg-surface/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+      <div class="flex items-center gap-8">
+        <a href="index.html" class="text-xl font-extrabold tracking-tight text-white">filmolic</a>
+        <ul class="flex items-center gap-5 text-sm font-medium text-zinc-400">
+          <li><a href="index.html" class="transition hover:text-white">Beranda</a></li>
+          <li><a href="favorit.html" class="text-white font-semibold">Favorit</a></li>
+          <li><a href="langganan.html" class="transition hover:text-white">Premium</a></li>
+          <li id="nav-dashboard" class="hidden"><a href="admin.html" class="font-bold text-accent">Dashboard</a></li>
+        </ul>
+      </div>
+      <div id="nav-actions" class="flex items-center gap-4">
+        <a href="login.html" class="px-4 py-2 text-sm font-semibold bg-accent hover:bg-indigo-600 text-white rounded-lg transition">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 min-h-[60vh]">
+    <h2 class="mb-6 text-2xl font-bold text-white">Daftar Tontonan Favorit</h2>
+    <div id="grid-favorit" class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+      <!-- Data dari Database akan dirender disini -->
+    </div>
+    <div id="empty-state" class="hidden text-center py-20 text-zinc-500">
+      Belum ada film yang ditambahkan ke favorit, atau Anda belum login.
+    </div>
+  </main>
+
+  <script>
+    const star = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-accent-soft"><path d="M11.5 2.6a.6.6 0 0 1 1 0l2.7 5.5 6 .9a.6.6 0 0 1 .3 1l-4.4 4.3 1 6a.6.6 0 0 1-.9.6L12 18.1l-5.4 2.8a.6.6 0 0 1-.9-.6l1-6L2.3 10a.6.6 0 0 1 .3-1l6-.9z"/></svg>`;
+    const userSession = JSON.parse(localStorage.getItem('userSession'));
+
+    // Fungsi Hapus dari Favorit menembak API Database
+    async function toggleFav(e, movieId) {
+      e.preventDefault();
+      try {
+        const res = await fetch('http://localhost:3000/api/favorites/toggle', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId: userSession.id, movieId: movieId })
+        });
+        const data = await res.json();
+        
+        if (data.success) {
+          loadFavorites(); // Render ulang daftar
+        }
+      } catch (err) {
+        alert("Gagal menghubungi server.");
+      }
+    }
+
+    function movieCardFav(m) {
+      return `
+        <a href="detail.html?id=${m.id}" class="group block relative">
+          <!-- Tombol Hapus (Merah menyala karena sudah di favorit) -->
+          <button onclick="toggleFav(event, ${m.id})" class="absolute left-2 top-2 z-10 p-2 rounded-full bg-base/80 hover:bg-surface-2 transition backdrop-blur">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </button>
+          <div class="relative aspect-[2/3] overflow-hidden rounded-xl bg-surface ring-1 ring-white/5 transition duration-300 group-hover:-translate-y-1 group-hover:ring-accent">
+            <img src="${m.poster}" alt="Poster" class="absolute inset-0 h-full w-full object-cover">
+            <span class="absolute right-2 top-2 flex items-center gap-1 rounded-md bg-base/80 px-2 py-1 text-xs font-semibold backdrop-blur text-white">${star}${m.rating.toFixed(1)}</span>
+          </div>
+          <h3 class="mt-2 truncate text-sm font-semibold text-white">${m.title}</h3>
+        </a>`;
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+    const userSession = JSON.parse(localStorage.getItem('userSession'));
+    const navActions = document.getElementById('nav-actions');
+    const navDashboard = document.getElementById('nav-dashboard');
+
+    if (userSession) {
+        // Munculkan menu Dashboard HANYA JIKA role adalah admin
+        if (userSession.role === 'admin' && navDashboard) {
+            navDashboard.classList.remove('hidden');
+        }
+
+        // Render profile actions
+        if (navActions) {
+            navActions.innerHTML = `
+                <span class="text-sm font-medium text-zinc-300 mx-2 hidden sm:block">
+                    Hai, ${userSession.username} ${userSession.is_premium ? '👑' : ''}
+                </span>
+                <button onclick="handleLogout()" class="px-4 py-2 text-sm font-semibold bg-surface-2 hover:bg-white/10 text-white rounded-lg transition border border-white/5">Logout</button>
+            `;
+        }
+    }
+});
+
+    
+
+    function handleLogout() {
+      if (confirm("Apakah Anda yakin ingin log out?")) {
+        localStorage.removeItem('userSession');
+        window.location.href = 'index.html'; 
+      }
+    }
+
+    async function loadFavorites() {
+      const container = document.getElementById("grid-favorit");
+      const emptyState = document.getElementById("empty-state");
+
+      if (!userSession) {
+        container.innerHTML = "";
+        emptyState.classList.remove("hidden");
+        return;
+      }
+
+      try {
+        // Ambil ID favorit dari API database
+        const favRes = await fetch(`http://localhost:3000/api/favorites/${userSession.id}`);
+        const favIds = await favRes.json();
+
+        if (favIds.length === 0) {
+          container.innerHTML = "";
+          emptyState.classList.remove("hidden");
+          return;
+        } else {
+          emptyState.classList.add("hidden");
+        }
+
+        // Ambil Data Film dari API
+        const res = await fetch("http://localhost:3000/api/movies");
+        const movies = await res.json();
+        
+        // Render film yang ada di dalam database
+        const favoriteMovies = movies.filter(m => favIds.includes(m.id));
+        container.innerHTML = favoriteMovies.map(m => movieCardFav(m)).join("");
+      } catch (err) {
+        console.error("Gagal memuat film favorit", err);
+      }
+    }
+
+    loadFavorites();
+  </script>
+</body>
+</html>

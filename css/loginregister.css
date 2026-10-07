@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container1 {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/blue.jpg");
+}
+
+#container1 p {
+    color: white;
+    font-size: 50px;
+}
+
+#container2 {
+    height: 100vh;
+    width: 50vw;
+}
+
+#container2 form {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#container2 p {
+    color: grey;
+    font-size: 13px;
+}
+
+.input {
+    border-radius: 3px;
+    border-color: grey 10%;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    /*-webkit-transition: 0.5s;*/
+    /*transition: 0.5s;*/
+    outline: none;
+}
+
+#container2 div {
+    margin-top: -20px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: row;
+    text-align: start;
+    margin-left: 13%;
+    align-content: start;
+}
+
+#container2 div p {
+    color: black;
+}
+
+.inputCheckbox {
+    border: 1px solid #ccc;
+    /*-webkit-transition: 0.5s;*/
+    /*transition: 0.5s;*/
+    width: 2%;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.submit {
+    width: 90px;
+    height: 35px;
+    background-color: #349ee8;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.submit-login {
+    font-size: 13.5px;
+    padding: 10px 25px 10px 25px;
+    background-color: #349ee8;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+label {
+    margin-top: 5px;
+}
+
+#container2 label {
+    display: inline-block;
+    text-align: start;
+    width: 30%;
+    margin-right: 20%;
+    align-content: start;
+}
+
+#signin {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 10px;
+}
+
+#signin a {
+    margin-top: 3%;
+    margin-left: 34%;
+    font-size: 80%;
+}
+
+img {
+    width: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}

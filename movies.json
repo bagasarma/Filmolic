@@ -1,0 +1,1982 @@
+[
+  {
+    "id": 693134,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "genre": "Cerita Fiksi",
+    "rating": 8.1,
+    "poster": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+    "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Timothée Chalamet",
+        "photo": "https://image.tmdb.org/t/p/w185/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+      },
+      {
+        "name": "Zendaya",
+        "photo": "https://image.tmdb.org/t/p/w185/1qup8tSt95HLbcy2c2xrx4iJNxv.jpg"
+      },
+      {
+        "name": "Rebecca Ferguson",
+        "photo": "https://image.tmdb.org/t/p/w185/ra53cM1aNmdH0aFhj8yBqPOj2fb.jpg"
+      },
+      {
+        "name": "Javier Bardem",
+        "photo": "https://image.tmdb.org/t/p/w185/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+      },
+      {
+        "name": "Josh Brolin",
+        "photo": "https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+      }
+    ]
+  },
+  {
+    "id": 872585,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genre": "Drama",
+    "rating": 8,
+    "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
+    "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Cillian Murphy",
+        "photo": "https://image.tmdb.org/t/p/w185/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg"
+      },
+      {
+        "name": "Emily Blunt",
+        "photo": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+      },
+      {
+        "name": "Matt Damon",
+        "photo": "https://image.tmdb.org/t/p/w185/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "photo": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "photo": "https://image.tmdb.org/t/p/w185/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+      }
+    ]
+  },
+  {
+    "id": 27205,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Aksi",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+    "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Leonardo DiCaprio",
+        "photo": "https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg"
+      },
+      {
+        "name": "Joseph Gordon-Levitt",
+        "photo": "https://image.tmdb.org/t/p/w185/z2FA8js799xqtfiFjBTicFYdfk.jpg"
+      },
+      {
+        "name": "Ken Watanabe",
+        "photo": "https://image.tmdb.org/t/p/w185/psAXOYp9SBOXvg6AXzARDedNQ9P.jpg"
+      },
+      {
+        "name": "Tom Hardy",
+        "photo": "https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+      },
+      {
+        "name": "Elliot Page",
+        "photo": "https://image.tmdb.org/t/p/w185/wSdlM4Qyoi5AGj5eIIp8Bm0Sfkz.jpg"
+      }
+    ]
+  },
+  {
+    "id": 157336,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": "Petualangan",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
+    "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Matthew McConaughey",
+        "photo": "https://image.tmdb.org/t/p/w185/lCySuYjhXix3FzQdS4oceDDrXKI.jpg"
+      },
+      {
+        "name": "Anne Hathaway",
+        "photo": "https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+      },
+      {
+        "name": "Michael Caine",
+        "photo": "https://image.tmdb.org/t/p/w185/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+      },
+      {
+        "name": "Jessica Chastain",
+        "photo": "https://image.tmdb.org/t/p/w185/eQKnihReJeB9vQEa5gySzAlKfZt.jpg"
+      },
+      {
+        "name": "Casey Affleck",
+        "photo": "https://image.tmdb.org/t/p/w185/304ilSygaCRWykoBWAL67TOw8g9.jpg"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "Aksi",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Christian Bale",
+        "photo": "https://image.tmdb.org/t/p/w185/7Pxez9J8fuPd2Mn9kex13YALrCQ.jpg"
+      },
+      {
+        "name": "Heath Ledger",
+        "photo": "https://image.tmdb.org/t/p/w185/AdWKVqyWpkYSfKE5Gb2qn8JzHni.jpg"
+      },
+      {
+        "name": "Aaron Eckhart",
+        "photo": "https://image.tmdb.org/t/p/w185/u5JjnRMr9zKEVvOP7k3F6gdcwT6.jpg"
+      },
+      {
+        "name": "Michael Caine",
+        "photo": "https://image.tmdb.org/t/p/w185/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+      },
+      {
+        "name": "Maggie Gyllenhaal",
+        "photo": "https://image.tmdb.org/t/p/w185/vsfkWdYWmA9CpzMHTJzrFxlDnEZ.jpg"
+      }
+    ]
+  },
+  {
+    "id": 496243,
+    "title": "Parasite",
+    "year": 2019,
+    "genre": "Komedi",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+    "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Song Kang-ho",
+        "photo": "https://image.tmdb.org/t/p/w185/kBM9UTPYXUA2RNk210DXhztLFns.jpg"
+      },
+      {
+        "name": "Lee Sun-kyun",
+        "photo": "https://image.tmdb.org/t/p/w185/nHFBbSFohzOUOvMxPVwe3Es2nJw.jpg"
+      },
+      {
+        "name": "Cho Yeo-jeong",
+        "photo": "https://image.tmdb.org/t/p/w185/5MgWM8pkUiYkj9MEaEpO0Ir1FD9.jpg"
+      },
+      {
+        "name": "Choi Woo-shik",
+        "photo": "https://image.tmdb.org/t/p/w185/9mZ9DNopxpCLUjXd0rLd42TLamw.jpg"
+      },
+      {
+        "name": "Park So-dam",
+        "photo": "https://image.tmdb.org/t/p/w185/fGVOikpvivopeATDy6ZzLdKYXDu.jpg"
+      }
+    ]
+  },
+  {
+    "id": 569094,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "genre": "Animasi",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Shameik Moore",
+        "photo": "https://image.tmdb.org/t/p/w185/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg"
+      },
+      {
+        "name": "Hailee Steinfeld",
+        "photo": "https://image.tmdb.org/t/p/w185/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+      },
+      {
+        "name": "Brian Tyree Henry",
+        "photo": "https://image.tmdb.org/t/p/w185/2MsJh0bpyzwvOUnXOltHp3j85Pb.jpg"
+      },
+      {
+        "name": "Luna Lauren Vélez",
+        "photo": "https://image.tmdb.org/t/p/w185/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg"
+      },
+      {
+        "name": "Jake Johnson",
+        "photo": "https://image.tmdb.org/t/p/w185/3UNfW2qZgRkW81neNVfQvaRC92K.jpg"
+      }
+    ]
+  },
+  {
+    "id": 545611,
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genre": "Aksi",
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/fIwiFha3WPu5nHkBeMQ4GzEk0Hv.jpg",
+    "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Michelle Yeoh",
+        "photo": "https://image.tmdb.org/t/p/w185/i6fHvGt7Rb8oVyjjdQVV6vEHB94.jpg"
+      },
+      {
+        "name": "Stephanie Hsu",
+        "photo": "https://image.tmdb.org/t/p/w185/8gb3lfIHKQAGOQyeC4ynQPsCiHr.jpg"
+      },
+      {
+        "name": "Ke Huy Quan",
+        "photo": "https://image.tmdb.org/t/p/w185/iestHyn7PLuVowj5Jaa1SGPboQ4.jpg"
+      },
+      {
+        "name": "James Hong",
+        "photo": "https://image.tmdb.org/t/p/w185/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+      },
+      {
+        "name": "Jamie Lee Curtis",
+        "photo": "https://image.tmdb.org/t/p/w185/eWKubKAAssRzmFwCZKh1mdYqGCH.jpg"
+      }
+    ]
+  },
+  {
+    "id": 76341,
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "genre": "Aksi",
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+    "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Tom Hardy",
+        "photo": "https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+      },
+      {
+        "name": "Charlize Theron",
+        "photo": "https://image.tmdb.org/t/p/w185/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg"
+      },
+      {
+        "name": "Nicholas Hoult",
+        "photo": "https://image.tmdb.org/t/p/w185/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg"
+      },
+      {
+        "name": "Hugh Keays-Byrne",
+        "photo": "https://image.tmdb.org/t/p/w185/7XSPjKNwmyEPMnmoVSQ42ykMz6M.jpg"
+      },
+      {
+        "name": "Josh Helman",
+        "photo": "https://image.tmdb.org/t/p/w185/1thwLjrgvFv7ifjyVtTKQh23OCh.jpg"
+      }
+    ]
+  },
+  {
+    "id": 335984,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genre": "Cerita Fiksi",
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/gNdLJU9TxrpGx4dkZidjys3fyy0.jpg",
+    "overview": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Ryan Gosling",
+        "photo": "https://image.tmdb.org/t/p/w185/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+      },
+      {
+        "name": "Harrison Ford",
+        "photo": "https://image.tmdb.org/t/p/w185/pjBMJVPpcZK23Vt1nzr1zEBTWrP.jpg"
+      },
+      {
+        "name": "Ana de Armas",
+        "photo": "https://image.tmdb.org/t/p/w185/3vxvsmYLTf4jnr163SUlBIw51ee.jpg"
+      },
+      {
+        "name": "Dave Bautista",
+        "photo": "https://image.tmdb.org/t/p/w185/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+      },
+      {
+        "name": "Robin Wright",
+        "photo": "https://image.tmdb.org/t/p/w185/d3rIv0y2p0jMsQ7ViR7O1606NZa.jpg"
+      }
+    ]
+  },
+  {
+    "id": 244786,
+    "title": "Whiplash",
+    "year": 2014,
+    "genre": "Drama",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg",
+    "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Miles Teller",
+        "photo": "https://image.tmdb.org/t/p/w185/kDf3sW3USjEBDQ3Ua7lbwOfwty6.jpg"
+      },
+      {
+        "name": "J.K. Simmons",
+        "photo": "https://image.tmdb.org/t/p/w185/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+      },
+      {
+        "name": "Paul Reiser",
+        "photo": "https://image.tmdb.org/t/p/w185/rGryzG00uSk8LsidacSBXVgo3iv.jpg"
+      },
+      {
+        "name": "Melissa Benoist",
+        "photo": "https://image.tmdb.org/t/p/w185/1F0fCPNhb5W0WyFe8Tszfbx1DEp.jpg"
+      },
+      {
+        "name": "Austin Stowell",
+        "photo": "https://image.tmdb.org/t/p/w185/At09XQpVXnChgedNsxu4ceR5W9i.jpg"
+      }
+    ]
+  },
+  {
+    "id": 313369,
+    "title": "La La Land",
+    "year": 2016,
+    "genre": "Komedi",
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+    "overview": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Ryan Gosling",
+        "photo": "https://image.tmdb.org/t/p/w185/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+      },
+      {
+        "name": "Emma Stone",
+        "photo": "https://image.tmdb.org/t/p/w185/cZ8a3QvAnj2cgcgVL6g4XaqPzpL.jpg"
+      },
+      {
+        "name": "John Legend",
+        "photo": "https://image.tmdb.org/t/p/w185/cCv0YBy2YFFWp9h3kvNPmwWwrCD.jpg"
+      },
+      {
+        "name": "Rosemarie DeWitt",
+        "photo": "https://image.tmdb.org/t/p/w185/44sxIdGtYN24R14OmnZbCpcd8J8.jpg"
+      },
+      {
+        "name": "Finn Wittrock",
+        "photo": "https://image.tmdb.org/t/p/w185/gwGMGTmli0uBF7eAhhXePWhYNFJ.jpg"
+      }
+    ]
+  },
+  {
+    "id": 603,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": "Aksi",
+    "rating": 8.3,
+    "poster": "https://image.tmdb.org/t/p/w500/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
+    "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Keanu Reeves",
+        "photo": "https://image.tmdb.org/t/p/w185/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+      },
+      {
+        "name": "Laurence Fishburne",
+        "photo": "https://image.tmdb.org/t/p/w185/2GbXERENPpl5MmlqOLlPVaVtifD.jpg"
+      },
+      {
+        "name": "Carrie-Anne Moss",
+        "photo": "https://image.tmdb.org/t/p/w185/9zya72vRZYBQILfetACsnmCBgdj.jpg"
+      },
+      {
+        "name": "Hugo Weaving",
+        "photo": "https://image.tmdb.org/t/p/w185/lSC8Et0PYi5zeQb3IpPkFje7hgR.jpg"
+      },
+      {
+        "name": "Gloria Foster",
+        "photo": "https://image.tmdb.org/t/p/w185/AriGXtC9fjBOia9Zr8CZjn4o3rx.jpg"
+      }
+    ]
+  },
+  {
+    "id": 299534,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genre": "Petualangan",
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Robert Downey Jr.",
+        "photo": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Chris Evans",
+        "photo": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "photo": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+      },
+      {
+        "name": "Chris Hemsworth",
+        "photo": "https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+      },
+      {
+        "name": "Scarlett Johansson",
+        "photo": "https://image.tmdb.org/t/p/w185/tgxYh3jMs5bY2Ub4d2dcp9iaz1R.jpg"
+      }
+    ]
+  },
+  {
+    "id": 475557,
+    "title": "Joker",
+    "year": 2019,
+    "genre": "Kejahatan",
+    "rating": 8.1,
+    "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rlay2M5QYvi6igbGcFjq8jxeusY.jpg",
+    "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Joaquin Phoenix",
+        "photo": "https://image.tmdb.org/t/p/w185/u38k3hQBDwNX0VA22aQceDp9Iyv.jpg"
+      },
+      {
+        "name": "Robert De Niro",
+        "photo": "https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+      },
+      {
+        "name": "Zazie Beetz",
+        "photo": "https://image.tmdb.org/t/p/w185/ijrT4pvALvxU0gphea4YxDnDh6e.jpg"
+      },
+      {
+        "name": "Frances Conroy",
+        "photo": "https://image.tmdb.org/t/p/w185/aJRQAkO24L6bH8qkkE5Iv1nA3gf.jpg"
+      },
+      {
+        "name": "Brett Cullen",
+        "photo": "https://image.tmdb.org/t/p/w185/4P6TsRcnr9MRbXlCdHitulGM5LT.jpg"
+      }
+    ]
+  },
+  {
+    "id": 603692,
+    "title": "John Wick: Chapter 4",
+    "year": 2023,
+    "genre": "Aksi",
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+    "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Keanu Reeves",
+        "photo": "https://image.tmdb.org/t/p/w185/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+      },
+      {
+        "name": "Donnie Yen",
+        "photo": "https://image.tmdb.org/t/p/w185/hTlhrrZMj8hZVvD17j4KyAFWBHc.jpg"
+      },
+      {
+        "name": "Bill Skarsgård",
+        "photo": "https://image.tmdb.org/t/p/w185/xBXLx1m0uzhXIbY3wN8lmPGeUHl.jpg"
+      },
+      {
+        "name": "Ian McShane",
+        "photo": "https://image.tmdb.org/t/p/w185/rteBJYNgD1yGsHg2HGZAIrYHz1t.jpg"
+      },
+      {
+        "name": "Laurence Fishburne",
+        "photo": "https://image.tmdb.org/t/p/w185/2GbXERENPpl5MmlqOLlPVaVtifD.jpg"
+      }
+    ]
+  },
+  {
+    "id": 414906,
+    "title": "The Batman",
+    "year": 2022,
+    "genre": "Kejahatan",
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
+    "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Robert Pattinson",
+        "photo": "https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+      },
+      {
+        "name": "Zoë Kravitz",
+        "photo": "https://image.tmdb.org/t/p/w185/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg"
+      },
+      {
+        "name": "Jeffrey Wright",
+        "photo": "https://image.tmdb.org/t/p/w185/yGcuHGW4glqRpOPxgiCvjcren7F.jpg"
+      },
+      {
+        "name": "Colin Farrell",
+        "photo": "https://image.tmdb.org/t/p/w185/5FdalJbrbZ5UCsED5rFrXpvbqJa.jpg"
+      },
+      {
+        "name": "Paul Dano",
+        "photo": "https://image.tmdb.org/t/p/w185/gOD5bO0hKnzzJm7sJeGeEJjfBBw.jpg"
+      }
+    ]
+  },
+  {
+    "id": 361743,
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "genre": "Aksi",
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+    "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Tom Cruise",
+        "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+      },
+      {
+        "name": "Miles Teller",
+        "photo": "https://image.tmdb.org/t/p/w185/kDf3sW3USjEBDQ3Ua7lbwOfwty6.jpg"
+      },
+      {
+        "name": "Jennifer Connelly",
+        "photo": "https://image.tmdb.org/t/p/w185/wdmcJagSRJ65AuJ4IUCzuHAdvgy.jpg"
+      },
+      {
+        "name": "Bashir Salahuddin",
+        "photo": "https://image.tmdb.org/t/p/w185/ZL5MRzjd6kWkvQXqh5mgPY1CKP.jpg"
+      },
+      {
+        "name": "Jon Hamm",
+        "photo": "https://image.tmdb.org/t/p/w185/mrXE5fZbEDPc7BEE5G21J6qrwzi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 76600,
+    "title": "Avatar: The Way of Water",
+    "year": 2022,
+    "genre": "Aksi",
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg",
+    "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Sam Worthington",
+        "photo": "https://image.tmdb.org/t/p/w185/mflBcox36s9ZPbsZPVOuhf6axaJ.jpg"
+      },
+      {
+        "name": "Zoe Saldaña",
+        "photo": "https://image.tmdb.org/t/p/w185/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg"
+      },
+      {
+        "name": "Sigourney Weaver",
+        "photo": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
+      },
+      {
+        "name": "Stephen Lang",
+        "photo": "https://image.tmdb.org/t/p/w185/gnO5VfkDgA2fsHweD0622LUY3Hu.jpg"
+      },
+      {
+        "name": "Kate Winslet",
+        "photo": "https://image.tmdb.org/t/p/w185/6qNnMsKtKz9si5rabpUEG85UfHp.jpg"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Gladiator",
+    "year": 2000,
+    "genre": "Aksi",
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
+    "overview": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Russell Crowe",
+        "photo": "https://image.tmdb.org/t/p/w185/3IBZF0qCZMZ7zJYlgrH0sQzNZV.jpg"
+      },
+      {
+        "name": "Joaquin Phoenix",
+        "photo": "https://image.tmdb.org/t/p/w185/u38k3hQBDwNX0VA22aQceDp9Iyv.jpg"
+      },
+      {
+        "name": "Connie Nielsen",
+        "photo": "https://image.tmdb.org/t/p/w185/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg"
+      },
+      {
+        "name": "Oliver Reed",
+        "photo": "https://image.tmdb.org/t/p/w185/dWfotc1X71wNCGyPO9hXpv8U9Gw.jpg"
+      },
+      {
+        "name": "Richard Harris",
+        "photo": "https://image.tmdb.org/t/p/w185/oJIS8QUOCfLUhsfK7kROkLHVyJh.jpg"
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "title": "Titanic",
+    "year": 1997,
+    "genre": "Drama",
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/xXCuto8YVp5RFqBJ7yKmVmLOWpF.jpg",
+    "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Leonardo DiCaprio",
+        "photo": "https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg"
+      },
+      {
+        "name": "Kate Winslet",
+        "photo": "https://image.tmdb.org/t/p/w185/6qNnMsKtKz9si5rabpUEG85UfHp.jpg"
+      },
+      {
+        "name": "Billy Zane",
+        "photo": "https://image.tmdb.org/t/p/w185/wr4fuwLzQvW1G0MS7cmQ3ObFjvL.jpg"
+      },
+      {
+        "name": "Kathy Bates",
+        "photo": "https://image.tmdb.org/t/p/w185/qZRTzTjV4OC1Ii9a0n8QBS9zMOd.jpg"
+      },
+      {
+        "name": "Frances Fisher",
+        "photo": "https://image.tmdb.org/t/p/w185/3iNDgd54IIj8g8hGqhhUjM6TeWd.jpg"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genre": "Petualangan",
+    "rating": 8,
+    "poster": "https://image.tmdb.org/t/p/w500/d9mtMGQDLANKieb9PbD3yK7xxzo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/4SyDTF02R5BepqSdQmOaNCHObzF.jpg",
+    "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Sam Neill",
+        "photo": "https://image.tmdb.org/t/p/w185/iIfuxalf37xUayuGyK0zG7z6WEZ.jpg"
+      },
+      {
+        "name": "Laura Dern",
+        "photo": "https://image.tmdb.org/t/p/w185/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg"
+      },
+      {
+        "name": "Jeff Goldblum",
+        "photo": "https://image.tmdb.org/t/p/w185/kcyEPgYtBP5Pm6LLeLGfXKjYovL.jpg"
+      },
+      {
+        "name": "Richard Attenborough",
+        "photo": "https://image.tmdb.org/t/p/w185/mJGvNS69xUqiNRybKzPl2Zuxe9Z.jpg"
+      },
+      {
+        "name": "Bob Peck",
+        "photo": "https://image.tmdb.org/t/p/w185/66wkMHY76swadwfHLcTEKEKhUbv.jpg"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genre": "Petualangan",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+    "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Elijah Wood",
+        "photo": "https://image.tmdb.org/t/p/w185/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg"
+      },
+      {
+        "name": "Ian McKellen",
+        "photo": "https://image.tmdb.org/t/p/w185/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
+      },
+      {
+        "name": "Viggo Mortensen",
+        "photo": "https://image.tmdb.org/t/p/w185/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
+      },
+      {
+        "name": "Sean Astin",
+        "photo": "https://image.tmdb.org/t/p/w185/As3ctGUtBYmG4zj4Ifyrcqd71HP.jpg"
+      },
+      {
+        "name": "Andy Serkis",
+        "photo": "https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": "Komedi",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Tom Hanks",
+        "photo": "https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+      },
+      {
+        "name": "Robin Wright",
+        "photo": "https://image.tmdb.org/t/p/w185/d3rIv0y2p0jMsQ7ViR7O1606NZa.jpg"
+      },
+      {
+        "name": "Gary Sinise",
+        "photo": "https://image.tmdb.org/t/p/w185/olRjiV8ZhBixQiTvrGwXhpVXxsV.jpg"
+      },
+      {
+        "name": "Sally Field",
+        "photo": "https://image.tmdb.org/t/p/w185/iMeq1j9Xwvaf6PbTJ0FQz69fpuA.jpg"
+      },
+      {
+        "name": "Mykelti Williamson",
+        "photo": "https://image.tmdb.org/t/p/w185/dR16zD9AjnHWbeN5OVmJWE0vSax.jpg"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genre": "Drama",
+    "rating": 8.7,
+    "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+    "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Tim Robbins",
+        "photo": "https://image.tmdb.org/t/p/w185/3FfJMIVwXgsIXbAT8ECBSZJAncR.jpg"
+      },
+      {
+        "name": "Morgan Freeman",
+        "photo": "https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+      },
+      {
+        "name": "Bob Gunton",
+        "photo": "https://image.tmdb.org/t/p/w185/ulbVvuBToBN3aCGcV028hwO0MOP.jpg"
+      },
+      {
+        "name": "William Sadler",
+        "photo": "https://image.tmdb.org/t/p/w185/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg"
+      },
+      {
+        "name": "Clancy Brown",
+        "photo": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 680,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": "Cerita Seru",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "John Travolta",
+        "photo": "https://image.tmdb.org/t/p/w185/ap8eEYfBKTLixmVVpRlq4NslDD5.jpg"
+      },
+      {
+        "name": "Samuel L. Jackson",
+        "photo": "https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg"
+      },
+      {
+        "name": "Uma Thurman",
+        "photo": "https://image.tmdb.org/t/p/w185/sBgAZWi3o4FsnaTvnTNtK6jpQcF.jpg"
+      },
+      {
+        "name": "Bruce Willis",
+        "photo": "https://image.tmdb.org/t/p/w185/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg"
+      },
+      {
+        "name": "Ving Rhames",
+        "photo": "https://image.tmdb.org/t/p/w185/tOVDvu1EQP78AwaUw6uh1wN818E.jpg"
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "title": "Fight Club",
+    "year": 1999,
+    "genre": "Drama",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
+    "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Edward Norton",
+        "photo": "https://image.tmdb.org/t/p/w185/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg"
+      },
+      {
+        "name": "Brad Pitt",
+        "photo": "https://image.tmdb.org/t/p/w185/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg"
+      },
+      {
+        "name": "Helena Bonham Carter",
+        "photo": "https://image.tmdb.org/t/p/w185/hJMbNSPJ2PCahsP3rNEU39C8GWU.jpg"
+      },
+      {
+        "name": "Meat Loaf",
+        "photo": "https://image.tmdb.org/t/p/w185/1zkohpaG3my4qQAZGVgzgPuXwZ6.jpg"
+      },
+      {
+        "name": "Jared Leto",
+        "photo": "https://image.tmdb.org/t/p/w185/ca3x0OfIKbJppZh8S1Alx3GfUZO.jpg"
+      }
+    ]
+  },
+  {
+    "id": 769,
+    "title": "GoodFellas",
+    "year": 1990,
+    "genre": "Drama",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/gILte6Zd7m1YneIr6MVhh30S9pr.jpg",
+    "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Robert De Niro",
+        "photo": "https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+      },
+      {
+        "name": "Ray Liotta",
+        "photo": "https://image.tmdb.org/t/p/w185/jdwGJbJNSRQiG2kB5MJxiu2clCQ.jpg"
+      },
+      {
+        "name": "Joe Pesci",
+        "photo": "https://image.tmdb.org/t/p/w185/pEHQoL8yOndOq59iXlgsOpUTcTk.jpg"
+      },
+      {
+        "name": "Lorraine Bracco",
+        "photo": "https://image.tmdb.org/t/p/w185/tAtpCzN4sTOy1RHpMpJj52zTO4S.jpg"
+      },
+      {
+        "name": "Paul Sorvino",
+        "photo": "https://image.tmdb.org/t/p/w185/1gF0UskusEdDcNaBDJ2CMsz5Agi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 807,
+    "title": "Se7en",
+    "year": 1995,
+    "genre": "Kejahatan",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
+    "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Morgan Freeman",
+        "photo": "https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+      },
+      {
+        "name": "Brad Pitt",
+        "photo": "https://image.tmdb.org/t/p/w185/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg"
+      },
+      {
+        "name": "Gwyneth Paltrow",
+        "photo": "https://image.tmdb.org/t/p/w185/ylN4A7fnnNXvHURENl5sQI8Jbib.jpg"
+      },
+      {
+        "name": "John Cassini",
+        "photo": "https://image.tmdb.org/t/p/w185/kn2Rtn0I8ivCR7ydZTY74XUBh1K.jpg"
+      },
+      {
+        "name": "Peter Crombie",
+        "photo": "https://image.tmdb.org/t/p/w185/pMvhE1wwQo3eTSp4vwq8Hb22CwN.jpg"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "genre": "Kejahatan",
+    "rating": 8.3,
+    "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
+    "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Jodie Foster",
+        "photo": "https://image.tmdb.org/t/p/w185/5emVgsLFlU6SmeBIFsF2Y7aqwtG.jpg"
+      },
+      {
+        "name": "Anthony Hopkins",
+        "photo": "https://image.tmdb.org/t/p/w185/iaf7SHSkGDpnyrDh1Jolilwk2TD.jpg"
+      },
+      {
+        "name": "Scott Glenn",
+        "photo": "https://image.tmdb.org/t/p/w185/8DHORod2l6ZFS9KR0gNAAM3WZfI.jpg"
+      },
+      {
+        "name": "Ted Levine",
+        "photo": "https://image.tmdb.org/t/p/w185/451KSkowLW6M2Au0wBKZZcidgGm.jpg"
+      },
+      {
+        "name": "Anthony Heald",
+        "photo": "https://image.tmdb.org/t/p/w185/e0E6Z1Y0debr4mAHgj0HO7MYyXG.jpg"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genre": "Animasi",
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/jUo8cNmU400WtZiJss45HNXlQ2e.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
+    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Rumi Hiiragi",
+        "photo": "https://image.tmdb.org/t/p/w185/nTKM4GgfkrZvAOFL55uhEuckt7M.jpg"
+      },
+      {
+        "name": "Miyu Irino",
+        "photo": "https://image.tmdb.org/t/p/w185/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg"
+      },
+      {
+        "name": "Mari Natsuki",
+        "photo": "https://image.tmdb.org/t/p/w185/MIFzUc77Sx57FQOZsoiGWEbpH2.jpg"
+      },
+      {
+        "name": "Takashi Naito",
+        "photo": "https://image.tmdb.org/t/p/w185/xwsm0ygjG79jLIogutwo6r64igy.jpg"
+      },
+      {
+        "name": "Yasuko Sawaguchi",
+        "photo": "https://image.tmdb.org/t/p/w185/rWspusb13VeJowmctnniXYYTcqq.jpg"
+      }
+    ]
+  },
+  {
+    "id": 354912,
+    "title": "Coco",
+    "year": 2017,
+    "genre": "Keluarga",
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+    "overview": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Anthony Gonzalez",
+        "photo": "https://image.tmdb.org/t/p/w185/WF7bn6t0LkxwBWyDMWvomVujn7.jpg"
+      },
+      {
+        "name": "Gael García Bernal",
+        "photo": "https://image.tmdb.org/t/p/w185/7uEO29wtdyY9bjt2JN43gVpE6vt.jpg"
+      },
+      {
+        "name": "Benjamin Bratt",
+        "photo": "https://image.tmdb.org/t/p/w185/hBenHPT4iJEG2kt5z2TOGnkRZwh.jpg"
+      },
+      {
+        "name": "Alanna Ubach",
+        "photo": "https://image.tmdb.org/t/p/w185/ffyBAEoW3bDgVJQV3GaHsZ9x29W.jpg"
+      },
+      {
+        "name": "Renée Victor",
+        "photo": "https://image.tmdb.org/t/p/w185/wAVDqwFhQsRQgO6VIYq6T9Wbbx8.jpg"
+      }
+    ]
+  },
+  {
+    "id": 150540,
+    "title": "Inside Out",
+    "year": 2015,
+    "genre": "Animasi",
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
+    "overview": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Amy Poehler",
+        "photo": "https://image.tmdb.org/t/p/w185/rwmvRonpluV6dCPiQissYrchvSD.jpg"
+      },
+      {
+        "name": "Phyllis Smith",
+        "photo": "https://image.tmdb.org/t/p/w185/h9w9pQbiderRWAC2mi7spjzuIGz.jpg"
+      },
+      {
+        "name": "Richard Kind",
+        "photo": "https://image.tmdb.org/t/p/w185/yWmuVQeQUzb5OSMVDoWkR0IylCK.jpg"
+      },
+      {
+        "name": "Bill Hader",
+        "photo": "https://image.tmdb.org/t/p/w185/qyT50vQ9PQIEctE1IxDTEsBKstU.jpg"
+      },
+      {
+        "name": "Lewis Black",
+        "photo": "https://image.tmdb.org/t/p/w185/f6660RU8eG10Rrk0Fnfih90b0ME.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14160,
+    "title": "Up",
+    "year": 2009,
+    "genre": "Animasi",
+    "rating": 8,
+    "poster": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+    "overview": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Ed Asner",
+        "photo": "https://image.tmdb.org/t/p/w185/AeVizz1AfAB2TbsfyzgBvqeSR3G.jpg"
+      },
+      {
+        "name": "Christopher Plummer",
+        "photo": "https://image.tmdb.org/t/p/w185/u0YBwss0ebEUp8sjRtQKnK2wZdR.jpg"
+      },
+      {
+        "name": "Jordan Nagai",
+        "photo": "https://image.tmdb.org/t/p/w185/j1kVS2sI3wWIHCCzzYD1buXAP9e.jpg"
+      },
+      {
+        "name": "Bob Peterson",
+        "photo": "https://image.tmdb.org/t/p/w185/dJe3nTCIToebjj1WHFHP7LmZKyk.jpg"
+      },
+      {
+        "name": "Delroy Lindo",
+        "photo": "https://image.tmdb.org/t/p/w185/kLwUBBmEIdchrLqwsYzgLB2B6q5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 862,
+    "title": "Toy Story",
+    "year": 1995,
+    "genre": "Keluarga",
+    "rating": 8,
+    "poster": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+    "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Tom Hanks",
+        "photo": "https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+      },
+      {
+        "name": "Tim Allen",
+        "photo": "https://image.tmdb.org/t/p/w185/k8XPNHBO459FaqkqqM4tfX5GMKk.jpg"
+      },
+      {
+        "name": "Don Rickles",
+        "photo": "https://image.tmdb.org/t/p/w185/iGMOVxIQoTPepRvqSCtRulfpx7u.jpg"
+      },
+      {
+        "name": "Jim Varney",
+        "photo": "https://image.tmdb.org/t/p/w185/zvBFmvKUrPvE6FW35O3RP4i1ZPp.jpg"
+      },
+      {
+        "name": "Wallace Shawn",
+        "photo": "https://image.tmdb.org/t/p/w185/wVaM1WlFKDce4esThwL4XtNLhOe.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Finding Nemo",
+    "year": 2003,
+    "genre": "Animasi",
+    "rating": 7.8,
+    "poster": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/eCynaAOgYYiw5yN5lBwz3IxqvaW.jpg",
+    "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Albert Brooks",
+        "photo": "https://image.tmdb.org/t/p/w185/8iDSGu5l93N7benjf6b3AysBore.jpg"
+      },
+      {
+        "name": "Ellen DeGeneres",
+        "photo": "https://image.tmdb.org/t/p/w185/z8IEEid4z63CBlJtxrTKEfsW7NA.jpg"
+      },
+      {
+        "name": "Alexander Gould",
+        "photo": "https://image.tmdb.org/t/p/w185/zzfj8LHhSiRntnyThvOBirEEmII.jpg"
+      },
+      {
+        "name": "Willem Dafoe",
+        "photo": "https://image.tmdb.org/t/p/w185/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
+      },
+      {
+        "name": "Geoffrey Rush",
+        "photo": "https://image.tmdb.org/t/p/w185/npXFjaFQzBNroCEPllGPTZ5IisA.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8587,
+    "title": "The Lion King",
+    "year": 1994,
+    "genre": "Animasi",
+    "rating": 8.3,
+    "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/q00H8EqULYSK74lgevMkhmGGLHn.jpg",
+    "overview": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Matthew Broderick",
+        "photo": "https://image.tmdb.org/t/p/w185/papqFgpyroZJEqd7WvuNGN8ti2k.jpg"
+      },
+      {
+        "name": "Moira Kelly",
+        "photo": "https://image.tmdb.org/t/p/w185/3yQRnGSfbPWQDInZHTzzXsrAhUR.jpg"
+      },
+      {
+        "name": "Jeremy Irons",
+        "photo": "https://image.tmdb.org/t/p/w185/w8Ct1q02Ht3sWdOSqfp3B85TzT.jpg"
+      },
+      {
+        "name": "Nathan Lane",
+        "photo": "https://image.tmdb.org/t/p/w185/jLPp3RoDhwOpLimKj3NhhBofPfT.jpg"
+      },
+      {
+        "name": "Ernie Sabella",
+        "photo": "https://image.tmdb.org/t/p/w185/rALAxs5zUfQS3bZrEcns86gCHwI.jpg"
+      }
+    ]
+  },
+  {
+    "id": 640,
+    "title": "Catch Me If You Can",
+    "year": 2002,
+    "genre": "Drama",
+    "rating": 8,
+    "poster": "https://image.tmdb.org/t/p/w500/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ggC3Brchf4RqPitEh7cROFoeAWn.jpg",
+    "overview": "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Leonardo DiCaprio",
+        "photo": "https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg"
+      },
+      {
+        "name": "Tom Hanks",
+        "photo": "https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+      },
+      {
+        "name": "Christopher Walken",
+        "photo": "https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+      },
+      {
+        "name": "Martin Sheen",
+        "photo": "https://image.tmdb.org/t/p/w185/m2Y3Q0uyuW6htrn2W9UWCWMkpZu.jpg"
+      },
+      {
+        "name": "Nathalie Baye",
+        "photo": "https://image.tmdb.org/t/p/w185/6q5g9DxtEcQb3EL9VNG6X9lRem7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 101299,
+    "title": "The Hunger Games: Catching Fire",
+    "year": 2013,
+    "genre": "Petualangan",
+    "rating": 7.4,
+    "poster": "https://image.tmdb.org/t/p/w500/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/eHaazLxM5LRMh0ySkVy7SK6wUWt.jpg",
+    "overview": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Jennifer Lawrence",
+        "photo": "https://image.tmdb.org/t/p/w185/6WTY6HjXMGxnHilJRVC3eLnu43F.jpg"
+      },
+      {
+        "name": "Josh Hutcherson",
+        "photo": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+      },
+      {
+        "name": "Liam Hemsworth",
+        "photo": "https://image.tmdb.org/t/p/w185/As5ujeSSJRQN4TE3odg3kDk0b5o.jpg"
+      },
+      {
+        "name": "Woody Harrelson",
+        "photo": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+      },
+      {
+        "name": "Elizabeth Banks",
+        "photo": "https://image.tmdb.org/t/p/w185/wMDFt9PUdxJWBzTwixiBfNpeN89.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1726,
+    "title": "Iron Man",
+    "year": 2008,
+    "genre": "Aksi",
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+    "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Robert Downey Jr.",
+        "photo": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Terrence Howard",
+        "photo": "https://image.tmdb.org/t/p/w185/wXWt2NSY23v7DHe2yZQ1C8TikBp.jpg"
+      },
+      {
+        "name": "Jeff Bridges",
+        "photo": "https://image.tmdb.org/t/p/w185/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg"
+      },
+      {
+        "name": "Gwyneth Paltrow",
+        "photo": "https://image.tmdb.org/t/p/w185/ylN4A7fnnNXvHURENl5sQI8Jbib.jpg"
+      },
+      {
+        "name": "Leslie Bibb",
+        "photo": "https://image.tmdb.org/t/p/w185/g3a1O9lOTZvrwQupUtg4Fc3CdTd.jpg"
+      }
+    ]
+  },
+  {
+    "id": 284054,
+    "title": "Black Panther",
+    "year": 2018,
+    "genre": "Aksi",
+    "rating": 7.4,
+    "poster": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
+    "overview": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Chadwick Boseman",
+        "photo": "https://image.tmdb.org/t/p/w185/nL16SKfyP1b7Hk6LsuWiqMfbdb8.jpg"
+      },
+      {
+        "name": "Michael B. Jordan",
+        "photo": "https://image.tmdb.org/t/p/w185/sMBpav8cK7t7Nk0yf4tuNOqNUyW.jpg"
+      },
+      {
+        "name": "Lupita Nyong'o",
+        "photo": "https://image.tmdb.org/t/p/w185/y40Wu1T742kynOqtwXASc5Qgm49.jpg"
+      },
+      {
+        "name": "Danai Gurira",
+        "photo": "https://image.tmdb.org/t/p/w185/z7H7QeQvr24vskGlANQhG43vozQ.jpg"
+      },
+      {
+        "name": "Martin Freeman",
+        "photo": "https://image.tmdb.org/t/p/w185/nrO54AzrxiNgCjBUOSz6ebyxDZY.jpg"
+      }
+    ]
+  },
+  {
+    "id": 118340,
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "genre": "Aksi",
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg",
+    "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Chris Pratt",
+        "photo": "https://image.tmdb.org/t/p/w185/cRH6HPAQ98PlOwwEvhYO4CM9lwu.jpg"
+      },
+      {
+        "name": "Zoe Saldaña",
+        "photo": "https://image.tmdb.org/t/p/w185/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg"
+      },
+      {
+        "name": "Dave Bautista",
+        "photo": "https://image.tmdb.org/t/p/w185/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+      },
+      {
+        "name": "Vin Diesel",
+        "photo": "https://image.tmdb.org/t/p/w185/tEoUF0RJqHnskmBOJiDEQhyN7Ok.jpg"
+      },
+      {
+        "name": "Bradley Cooper",
+        "photo": "https://image.tmdb.org/t/p/w185/5Dhy50qOMOHfR1NZifKIfffjV9X.jpg"
+      }
+    ]
+  },
+  {
+    "id": 293660,
+    "title": "Deadpool",
+    "year": 2016,
+    "genre": "Aksi",
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rFj9IKlL75B2pXhZA60jkNWvxeW.jpg",
+    "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Ryan Reynolds",
+        "photo": "https://image.tmdb.org/t/p/w185/trzgptffGvAlAT6MEu01fz47cLW.jpg"
+      },
+      {
+        "name": "Morena Baccarin",
+        "photo": "https://image.tmdb.org/t/p/w185/4gyHyg6FJ1oFczOm5pmMkdEEo2J.jpg"
+      },
+      {
+        "name": "Ed Skrein",
+        "photo": "https://image.tmdb.org/t/p/w185/btJvbQbWf3ciYM4SM5tMWSJEkXX.jpg"
+      },
+      {
+        "name": "T.J. Miller",
+        "photo": "https://image.tmdb.org/t/p/w185/rRrVvBxOkyYM5XdLXimShHR1Itn.jpg"
+      },
+      {
+        "name": "Gina Carano",
+        "photo": "https://image.tmdb.org/t/p/w185/6K89PVbt3v2N7cqbPyZiO74yuOj.jpg"
+      }
+    ]
+  },
+  {
+    "id": 263115,
+    "title": "Logan",
+    "year": 2017,
+    "genre": "Aksi",
+    "rating": 7.8,
+    "poster": "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/4DZxWNSAyksN6N3JkvpJ53Yq6zU.jpg",
+    "overview": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Hugh Jackman",
+        "photo": "https://image.tmdb.org/t/p/w185/4Xujtewxqt6aU0Y81tsS9gkjizk.jpg"
+      },
+      {
+        "name": "Dafne Keen",
+        "photo": "https://image.tmdb.org/t/p/w185/34BhddK5z2YHjfppOleezVrQ7Jt.jpg"
+      },
+      {
+        "name": "Patrick Stewart",
+        "photo": "https://image.tmdb.org/t/p/w185/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg"
+      },
+      {
+        "name": "Elizabeth Rodriguez",
+        "photo": "https://image.tmdb.org/t/p/w185/9f851DP7NHAOKvvlZdXxYigDYbl.jpg"
+      },
+      {
+        "name": "Boyd Holbrook",
+        "photo": "https://image.tmdb.org/t/p/w185/xmkpedcct3ey1d1HGDNsUMQPHcB.jpg"
+      }
+    ]
+  },
+  {
+    "id": 297762,
+    "title": "Wonder Woman",
+    "year": 2017,
+    "genre": "Aksi",
+    "rating": 7.2,
+    "poster": "https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/AaABt75ZzfMGrscUR2seabz4PEX.jpg",
+    "overview": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Gal Gadot",
+        "photo": "https://image.tmdb.org/t/p/w185/AbXKtWQwuDiwhoQLh34VRglwuBE.jpg"
+      },
+      {
+        "name": "Chris Pine",
+        "photo": "https://image.tmdb.org/t/p/w185/vSe6sIsdtcoqBhuWRXynahFg8Vf.jpg"
+      },
+      {
+        "name": "Connie Nielsen",
+        "photo": "https://image.tmdb.org/t/p/w185/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg"
+      },
+      {
+        "name": "Robin Wright",
+        "photo": "https://image.tmdb.org/t/p/w185/d3rIv0y2p0jMsQ7ViR7O1606NZa.jpg"
+      },
+      {
+        "name": "Danny Huston",
+        "photo": "https://image.tmdb.org/t/p/w185/mNz9t7MNANopavbLgcsZMMQBJ0u.jpg"
+      }
+    ]
+  },
+  {
+    "id": 297802,
+    "title": "Aquaman",
+    "year": 2018,
+    "genre": "Aksi",
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9QusGjxcYvfPD1THg6oW3RLeNn7.jpg",
+    "overview": "Half-human, half-Atlantean Arthur Curry is taken on the journey of his lifetime to discover if he is worth of being a king.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Jason Momoa",
+        "photo": "https://image.tmdb.org/t/p/w185/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+      },
+      {
+        "name": "Amber Heard",
+        "photo": "https://image.tmdb.org/t/p/w185/vnDolRlZWiOLBg1N0hsUTz4OH4C.jpg"
+      },
+      {
+        "name": "Willem Dafoe",
+        "photo": "https://image.tmdb.org/t/p/w185/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
+      },
+      {
+        "name": "Patrick Wilson",
+        "photo": "https://image.tmdb.org/t/p/w185/oym6H2QD9esk4yABjCHaUoNAOa8.jpg"
+      },
+      {
+        "name": "Nicole Kidman",
+        "photo": "https://image.tmdb.org/t/p/w185/4KSQDodyBtTDMaREYgMdWD1LbH1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 634649,
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "genre": "Aksi",
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+    "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Tom Holland",
+        "photo": "https://image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+      },
+      {
+        "name": "Zendaya",
+        "photo": "https://image.tmdb.org/t/p/w185/1qup8tSt95HLbcy2c2xrx4iJNxv.jpg"
+      },
+      {
+        "name": "Benedict Cumberbatch",
+        "photo": "https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
+      },
+      {
+        "name": "Jacob Batalon",
+        "photo": "https://image.tmdb.org/t/p/w185/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg"
+      },
+      {
+        "name": "Jon Favreau",
+        "photo": "https://image.tmdb.org/t/p/w185/tnx7iMVydPQXGOoLsxXl84PXtbA.jpg"
+      }
+    ]
+  },
+  {
+    "id": 284052,
+    "title": "Doctor Strange",
+    "year": 2016,
+    "genre": "Fantasi",
+    "rating": 7.4,
+    "poster": "https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/kkoiH8ZWxJ9WSAjOadGtuHUQxbm.jpg",
+    "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Benedict Cumberbatch",
+        "photo": "https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
+      },
+      {
+        "name": "Chiwetel Ejiofor",
+        "photo": "https://image.tmdb.org/t/p/w185/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg"
+      },
+      {
+        "name": "Rachel McAdams",
+        "photo": "https://image.tmdb.org/t/p/w185/2DPh6KoNg0p57vvGc6N468zr3ct.jpg"
+      },
+      {
+        "name": "Benedict Wong",
+        "photo": "https://image.tmdb.org/t/p/w185/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg"
+      },
+      {
+        "name": "Mads Mikkelsen",
+        "photo": "https://image.tmdb.org/t/p/w185/AsX4bdvZ8UCayWTmAf9lAqOA8V7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 284053,
+    "title": "Thor: Ragnarok",
+    "year": 2017,
+    "genre": "Aksi",
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg",
+    "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Chris Hemsworth",
+        "photo": "https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "photo": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+      },
+      {
+        "name": "Tom Hiddleston",
+        "photo": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg"
+      },
+      {
+        "name": "Cate Blanchett",
+        "photo": "https://image.tmdb.org/t/p/w185/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg"
+      },
+      {
+        "name": "Idris Elba",
+        "photo": "https://image.tmdb.org/t/p/w185/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Star Wars",
+    "year": 1977,
+    "genre": "Petualangan",
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+    "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Mark Hamill",
+        "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg"
+      },
+      {
+        "name": "Harrison Ford",
+        "photo": "https://image.tmdb.org/t/p/w185/pjBMJVPpcZK23Vt1nzr1zEBTWrP.jpg"
+      },
+      {
+        "name": "Carrie Fisher",
+        "photo": "https://image.tmdb.org/t/p/w185/of4yHmryKPy92eeskUQ7MRmjC3l.jpg"
+      },
+      {
+        "name": "Peter Cushing",
+        "photo": "https://image.tmdb.org/t/p/w185/if5g03wn6uvHx7F6FxXHLebKc0q.jpg"
+      },
+      {
+        "name": "Alec Guinness",
+        "photo": "https://image.tmdb.org/t/p/w185/qaN3cZdd2pvKaOXIIJ5BXnbjPp3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1891,
+    "title": "The Empire Strikes Back",
+    "year": 1980,
+    "genre": "Petualangan",
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/k9pshruhCpJAdH9RaGJO6jaWQ4X.jpg",
+    "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Mark Hamill",
+        "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg"
+      },
+      {
+        "name": "Harrison Ford",
+        "photo": "https://image.tmdb.org/t/p/w185/pjBMJVPpcZK23Vt1nzr1zEBTWrP.jpg"
+      },
+      {
+        "name": "Carrie Fisher",
+        "photo": "https://image.tmdb.org/t/p/w185/of4yHmryKPy92eeskUQ7MRmjC3l.jpg"
+      },
+      {
+        "name": "Billy Dee Williams",
+        "photo": "https://image.tmdb.org/t/p/w185/AwFFWuXJbGCXb0cA5uZvCNtg68H.jpg"
+      },
+      {
+        "name": "Anthony Daniels",
+        "photo": "https://image.tmdb.org/t/p/w185/c876ZM5ObwYgXksrRWNNrL9KeZg.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1892,
+    "title": "Return of the Jedi",
+    "year": 1983,
+    "genre": "Petualangan",
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/jQYlydvHm3kUix1f8prMucrplhm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ziECpBRIyclmBNaFSWlvCfsKbMD.jpg",
+    "overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, the Emperor prepares to crush the Rebellion with a more powerful Death Star, and the Rebel fleet mounts a massive attack on the space station. Luke Skywalker confronts Darth Vader in a final climactic duel before the evil Emperor.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Mark Hamill",
+        "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg"
+      },
+      {
+        "name": "Harrison Ford",
+        "photo": "https://image.tmdb.org/t/p/w185/pjBMJVPpcZK23Vt1nzr1zEBTWrP.jpg"
+      },
+      {
+        "name": "Carrie Fisher",
+        "photo": "https://image.tmdb.org/t/p/w185/of4yHmryKPy92eeskUQ7MRmjC3l.jpg"
+      },
+      {
+        "name": "Billy Dee Williams",
+        "photo": "https://image.tmdb.org/t/p/w185/AwFFWuXJbGCXb0cA5uZvCNtg68H.jpg"
+      },
+      {
+        "name": "Anthony Daniels",
+        "photo": "https://image.tmdb.org/t/p/w185/c876ZM5ObwYgXksrRWNNrL9KeZg.jpg"
+      }
+    ]
+  },
+  {
+    "id": 438631,
+    "title": "Dune",
+    "year": 2021,
+    "genre": "Cerita Fiksi",
+    "rating": 7.8,
+    "poster": "https://image.tmdb.org/t/p/w500/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/zRKQW58MBEY078AxkHxEJzUskCl.jpg",
+    "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Timothée Chalamet",
+        "photo": "https://image.tmdb.org/t/p/w185/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+      },
+      {
+        "name": "Rebecca Ferguson",
+        "photo": "https://image.tmdb.org/t/p/w185/ra53cM1aNmdH0aFhj8yBqPOj2fb.jpg"
+      },
+      {
+        "name": "Oscar Isaac",
+        "photo": "https://image.tmdb.org/t/p/w185/dW5U5yrIIPmMjRThR9KT2xH6nTz.jpg"
+      },
+      {
+        "name": "Jason Momoa",
+        "photo": "https://image.tmdb.org/t/p/w185/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+      },
+      {
+        "name": "Stellan Skarsgård",
+        "photo": "https://image.tmdb.org/t/p/w185/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+      }
+    ]
+  },
+  {
+    "id": 329865,
+    "title": "Arrival",
+    "year": 2016,
+    "genre": "Drama",
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8MUZz7oPXQftFTslZpRP3CVMOoq.jpg",
+    "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Amy Adams",
+        "photo": "https://image.tmdb.org/t/p/w185/gn0K6c6d1L6qQrRc86iL8uyIqiF.jpg"
+      },
+      {
+        "name": "Jeremy Renner",
+        "photo": "https://image.tmdb.org/t/p/w185/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg"
+      },
+      {
+        "name": "Forest Whitaker",
+        "photo": "https://image.tmdb.org/t/p/w185/4w7l5JUwnwFNBy7J93ZwYN1nihm.jpg"
+      },
+      {
+        "name": "Michael Stuhlbarg",
+        "photo": "https://image.tmdb.org/t/p/w185/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg"
+      },
+      {
+        "name": "Mark O'Brien",
+        "photo": "https://image.tmdb.org/t/p/w185/8ckgltvlife4BBJcBpHEQWXfQ9p.jpg"
+      }
+    ]
+  },
+  {
+    "id": 273481,
+    "title": "Sicario",
+    "year": 2015,
+    "genre": "Aksi",
+    "rating": 7.4,
+    "poster": "https://image.tmdb.org/t/p/w500/lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/fKPgObonYgPgCdu88yjV7Hpn7Dp.jpg",
+    "overview": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Emily Blunt",
+        "photo": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+      },
+      {
+        "name": "Benicio del Toro",
+        "photo": "https://image.tmdb.org/t/p/w185/aYomJWx0B2B8ra6Rmgt8lr0XCrw.jpg"
+      },
+      {
+        "name": "Josh Brolin",
+        "photo": "https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+      },
+      {
+        "name": "Victor Garber",
+        "photo": "https://image.tmdb.org/t/p/w185/FdhXl8qxsKgj22Ip99SRM9jUx1.jpg"
+      },
+      {
+        "name": "Jon Bernthal",
+        "photo": "https://image.tmdb.org/t/p/w185/bjcglF1IpDcZNs1HwFxakGpzBo6.jpg"
+      }
+    ]
+  },
+  {
+    "id": 146233,
+    "title": "Prisoners",
+    "year": 2013,
+    "genre": "Drama",
+    "rating": 8.1,
+    "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/3RFmTz5h2UuFWEV4oH00XICBR9y.jpg",
+    "overview": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Hugh Jackman",
+        "photo": "https://image.tmdb.org/t/p/w185/4Xujtewxqt6aU0Y81tsS9gkjizk.jpg"
+      },
+      {
+        "name": "Jake Gyllenhaal",
+        "photo": "https://image.tmdb.org/t/p/w185/ct2Gh2sJSxd4yaMrSsqSt1HpIC3.jpg"
+      },
+      {
+        "name": "Viola Davis",
+        "photo": "https://image.tmdb.org/t/p/w185/xDssw6vpYNRjsybvMPRE30e0dPN.jpg"
+      },
+      {
+        "name": "Maria Bello",
+        "photo": "https://image.tmdb.org/t/p/w185/it1f5mxiGIWO0DzTBfwtLTjphZb.jpg"
+      },
+      {
+        "name": "Terrence Howard",
+        "photo": "https://image.tmdb.org/t/p/w185/wXWt2NSY23v7DHe2yZQ1C8TikBp.jpg"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": "Drama",
+    "rating": 8.7,
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
+    "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Marlon Brando",
+        "photo": "https://image.tmdb.org/t/p/w185/fuTEPMsBtV1zE98ujPONbKiYDc2.jpg"
+      },
+      {
+        "name": "Al Pacino",
+        "photo": "https://image.tmdb.org/t/p/w185/m8HAAjq1T75JypKk0v1FFQn4ysZ.jpg"
+      },
+      {
+        "name": "James Caan",
+        "photo": "https://image.tmdb.org/t/p/w185/z2Lz3rtxZ7aJjzBUkCnExvo8stn.jpg"
+      },
+      {
+        "name": "Robert Duvall",
+        "photo": "https://image.tmdb.org/t/p/w185/3tcKxC5Sc3DJ6XPDKKC2EAomEWn.jpg"
+      },
+      {
+        "name": "Richard S. Castellano",
+        "photo": "https://image.tmdb.org/t/p/w185/1vr75BdHWret81vuSJ3ugiCBkxw.jpg"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "genre": "Aksi",
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
+    "overview": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Arnold Schwarzenegger",
+        "photo": "https://image.tmdb.org/t/p/w185/4jM3vsHIEQVeNFifiTAUDVAmiUo.jpg"
+      },
+      {
+        "name": "Linda Hamilton",
+        "photo": "https://image.tmdb.org/t/p/w185/7FNn9Z5xkRS9EFbGL2tpmpph9xV.jpg"
+      },
+      {
+        "name": "Edward Furlong",
+        "photo": "https://image.tmdb.org/t/p/w185/e221dMIBgb6Lk092GIkHB9ohQF1.jpg"
+      },
+      {
+        "name": "Robert Patrick",
+        "photo": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg"
+      },
+      {
+        "name": "Earl Boen",
+        "photo": "https://image.tmdb.org/t/p/w185/nRAlyqkAA84gCTDwjFR77avdfHK.jpg"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Back to the Future",
+    "year": 1985,
+    "genre": "Petualangan",
+    "rating": 8.3,
+    "poster": "https://image.tmdb.org/t/p/w500/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
+    "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+    "is_premium": false,
+    "cast": [
+      {
+        "name": "Michael J. Fox",
+        "photo": "https://image.tmdb.org/t/p/w185/2JB4FMgQmnhbBlQ4SxWFN9EIVDi.jpg"
+      },
+      {
+        "name": "Christopher Lloyd",
+        "photo": "https://image.tmdb.org/t/p/w185/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg"
+      },
+      {
+        "name": "Crispin Glover",
+        "photo": "https://image.tmdb.org/t/p/w185/imBnLpSXvg61qDDdEfvL6R4ITKt.jpg"
+      },
+      {
+        "name": "Lea Thompson",
+        "photo": "https://image.tmdb.org/t/p/w185/n7qTKpbAbr2P1RlcW1Lq1NhckQ2.jpg"
+      },
+      {
+        "name": "Claudia Wells",
+        "photo": "https://image.tmdb.org/t/p/w185/2VOsPvoV2vmEUd1O2KjW3kcN8JD.jpg"
+      }
+    ]
+  },
+  {
+    "id": 24428,
+    "title": "The Avengers",
+    "year": 2012,
+    "genre": "Cerita Fiksi",
+    "rating": 8.1,
+    "poster": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+    "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+    "is_premium": true,
+    "cast": [
+      {
+        "name": "Robert Downey Jr.",
+        "photo": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Chris Evans",
+        "photo": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "photo": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+      },
+      {
+        "name": "Chris Hemsworth",
+        "photo": "https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+      },
+      {
+        "name": "Scarlett Johansson",
+        "photo": "https://image.tmdb.org/t/p/w185/tgxYh3jMs5bY2Ub4d2dcp9iaz1R.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Langganan Premium - filmolic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { colors: { base: '#0b0b12', surface: '#16161f', 'surface-2': '#22222e', accent: '#6366f1', 'accent-soft': '#a5b4fc' }, fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] } } } }
+  </script>
+  <style>
+    body {
+      background-color: #0b0b12;
+      color: #f4f4f5;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen font-sans antialiased flex flex-col">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-20 border-b border-white/5 bg-surface/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+      <div class="flex items-center gap-8">
+        <a href="index.html" class="text-xl font-extrabold tracking-tight text-white">filmolic</a>
+        <ul class="flex items-center gap-5 text-sm font-medium text-zinc-400">
+          <li><a href="index.html" class="transition hover:text-white">Beranda</a></li>
+          <li><a href="favorit.html" class="transition hover:text-white">Favorit</a></li>
+          <li><a href="langganan.html" class="text-white font-semibold">Premium</a></li>
+          <li id="nav-dashboard" class="hidden"><a href="admin.html" class="font-bold text-accent">Dashboard</a></li>
+        </ul>
+      </div>
+      <div id="nav-actions" class="flex items-center gap-4">
+        <a href="login.html"
+          class="px-4 py-2 text-sm font-semibold bg-accent hover:bg-indigo-600 text-white rounded-lg transition">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-grow mx-auto max-w-5xl px-4 py-12 sm:px-6 flex flex-col items-center">
+
+    <div class="text-center mb-12">
+      <h1 class="text-3xl font-extrabold text-white mb-4">Pilih Paket Langganan</h1>
+      <p class="text-zinc-400 max-w-xl mx-auto">Tingkatkan akun Anda ke Premium untuk membuka akses film eksklusif,
+        kualitas 4K, dan pengalaman menonton tanpa iklan.</p>
+    </div>
+
+    <!-- KARTU LANGGANAN -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+
+      <!-- Paket Reguler -->
+      <div class="bg-surface rounded-2xl p-6 ring-1 ring-white/5 flex flex-col relative h-full">
+        <h2 class="text-lg font-bold text-white mb-1">Reguler</h2>
+        <p class="text-sm text-zinc-400 mb-6">Cocok untuk penonton santai.</p>
+        <div class="text-4xl font-extrabold text-white mb-6">Gratis</div>
+        <ul class="text-sm text-zinc-300 space-y-3 mb-8 flex-grow">
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Akses film publik terbatas
+          </li>
+          <li class="flex items-center gap-2 text-zinc-500">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+            Terdapat Iklan
+          </li>
+          <li class="flex items-center gap-2 text-zinc-500">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+            Kualitas Maksimal 720p
+          </li>
+        </ul>
+        <!-- Tombol Reguler -->
+        <button id="btn-reguler"
+          class="w-full py-2.5 rounded-lg bg-surface-2 text-zinc-400 font-bold mt-auto transition">Memuat...</button>
+      </div>
+
+      <!-- Paket Premium 1 Bulan -->
+      <div class="bg-surface-2 rounded-2xl p-6 ring-1 ring-white/10 flex flex-col relative h-full">
+        <span
+          class="absolute top-0 right-0 bg-zinc-600 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg rounded-tr-xl">FLEKSIBEL</span>
+        <h2 class="text-lg font-bold text-white mb-1">Premium 1 Bulan</h2>
+        <p class="text-sm text-zinc-400 mb-6">Buka seluruh pengalaman Filmolic.</p>
+        <div class="text-4xl font-extrabold text-white mb-6">Rp 49K<span
+            class="text-sm font-normal text-zinc-400">/bln</span></div>
+        <ul class="text-sm text-zinc-300 space-y-3 mb-8 flex-grow">
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Semua Film Eksklusif
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Bebas Iklan 100%
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Resolusi 4K & HDR
+          </li>
+        </ul>
+        <!-- Tombol 1 Bulan -->
+        <button id="btn-monthly"
+          class="w-full py-2.5 rounded-lg font-bold mt-auto transition border border-white/10 hover:bg-white/5">Memuat...</button>
+      </div>
+
+      <!-- Paket Premium 1 Tahun -->
+      <div
+        class="bg-surface rounded-2xl p-6 ring-2 ring-accent flex flex-col relative h-full shadow-[0_0_20px_rgba(99,102,241,0.2)]">
+        <span
+          class="absolute top-0 right-0 bg-accent text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg rounded-tr-xl">HEMAT
+          30%</span>
+        <h2 class="text-lg font-bold text-white mb-1">Premium 1 Tahun</h2>
+        <p class="text-sm text-zinc-400 mb-6">Komitmen jangka panjang, harga terbaik.</p>
+        <div class="text-4xl font-extrabold text-white mb-6">Rp 399K<span
+            class="text-sm font-normal text-zinc-400">/thn</span></div>
+        <ul class="text-sm text-zinc-300 space-y-3 mb-8 flex-grow">
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Semua Fitur Premium
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Bebas Iklan 100%
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="text-accent-soft w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Bisa diakses di 4 Layar
+          </li>
+        </ul>
+        <!-- Tombol 1 Tahun -->
+        <button id="btn-yearly"
+          class="w-full py-2.5 rounded-lg font-bold mt-auto transition bg-accent hover:bg-indigo-600 text-white shadow-lg">Memuat...</button>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    const userSession = JSON.parse(localStorage.getItem('userSession'));
+
+    // RENDER PROFIL & LOGOUT
+    document.addEventListener("DOMContentLoaded", () => {
+      const userSession = JSON.parse(localStorage.getItem('userSession'));
+      const navActions = document.getElementById('nav-actions');
+      const navDashboard = document.getElementById('nav-dashboard');
+
+      if (userSession) {
+        // Munculkan menu Dashboard HANYA JIKA role adalah admin
+        if (userSession.role === 'admin' && navDashboard) {
+          navDashboard.classList.remove('hidden');
+        }
+
+        // Render profile actions
+        if (navActions) {
+          navActions.innerHTML = `
+                <span class="text-sm font-medium text-zinc-300 mx-2 hidden sm:block">
+                    Hai, ${userSession.username} ${userSession.is_premium ? '👑' : ''}
+                </span>
+                <button onclick="handleLogout()" class="px-4 py-2 text-sm font-semibold bg-surface-2 hover:bg-white/10 text-white rounded-lg transition border border-white/5">Logout</button>
+            `;
+        }
+      }
+
+      // PANGGIL FUNGSINYA DI SINI AGAR TOMBOL TERUPDATE
+      renderSubscriptionButtons();
+    });
+
+    function handleLogout() {
+      if (confirm("Apakah Anda yakin ingin log out?")) {
+        localStorage.removeItem('userSession');
+        window.location.href = 'index.html';
+      }
+    }
+
+    // LOGIKA TOMBOL BERLANGGANAN
+    function renderSubscriptionButtons() {
+      const btnReguler = document.getElementById('btn-reguler');
+      const btnMonthly = document.getElementById('btn-monthly');
+      const btnYearly = document.getElementById('btn-yearly');
+
+      if (!userSession) {
+        // JIKA BELUM LOGIN
+        btnReguler.innerText = "Login untuk Memilih";
+        btnReguler.onclick = () => window.location.href = 'login.html';
+
+        btnMonthly.innerText = "Beli Bulanan";
+        btnMonthly.onclick = () => window.location.href = 'login.html';
+
+        btnYearly.innerText = "Beli Tahunan";
+        btnYearly.onclick = () => window.location.href = 'login.html';
+        return;
+      }
+
+      if (userSession.is_premium) {
+        // JIKA SUDAH PREMIUM
+        btnReguler.innerText = "Batalkan Premium";
+        btnReguler.className = "w-full py-2.5 rounded-lg font-bold mt-auto transition border border-red-600 text-red-500 hover:bg-red-600 hover:text-white";
+        btnReguler.onclick = downgradePremium;
+
+        btnMonthly.innerText = "Paket Anda Saat Ini";
+        btnMonthly.disabled = true;
+        btnMonthly.className = "w-full py-2.5 rounded-lg bg-surface-2 text-zinc-500 font-bold mt-auto cursor-not-allowed";
+
+        btnYearly.innerText = "Paket Anda Saat Ini";
+        btnYearly.disabled = true;
+        btnYearly.className = "w-full py-2.5 rounded-lg bg-surface-2 text-zinc-500 font-bold mt-auto cursor-not-allowed";
+      } else {
+        // JIKA MASIH REGULER (BUKAN PREMIUM)
+        btnReguler.innerText = "Paket Saat Ini";
+        btnReguler.disabled = true;
+        btnReguler.className = "w-full py-2.5 rounded-lg bg-surface-2 text-zinc-500 font-bold mt-auto cursor-not-allowed";
+
+        btnMonthly.innerText = "Beli Bulanan";
+        btnMonthly.className = "w-full py-2.5 rounded-lg font-bold mt-auto transition border border-white/10 hover:bg-white/5 text-white";
+        btnMonthly.onclick = () => upgradePremium('Bulan');
+
+        btnYearly.innerText = "Beli Tahunan";
+        btnYearly.className = "w-full py-2.5 rounded-lg font-bold mt-auto transition bg-accent hover:bg-indigo-600 text-white shadow-lg";
+        btnYearly.onclick = () => upgradePremium('Tahun');
+      }
+    }
+
+    // FUNGSI API UPGRADE
+    async function upgradePremium(tipe) {
+      if (confirm(`Apakah Anda yakin ingin membeli paket Premium 1 ${tipe}?`)) {
+        try {
+          const res = await fetch('http://localhost:3000/api/upgrade', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: userSession.id })
+          });
+          const data = await res.json();
+
+          if (data.success) {
+            userSession.is_premium = 1;
+            localStorage.setItem('userSession', JSON.stringify(userSession));
+            alert("Berhasil upgrade ke Premium!");
+            location.reload();
+          }
+        } catch (err) {
+          alert("Server sedang bermasalah atau belum dinyalakan.");
+        }
+      }
+    }
+
+    // FUNGSI API DOWNGRADE (BATALKAN)
+    async function downgradePremium() {
+      if (confirm("Apakah Anda yakin ingin membatalkan Premium? Anda akan kehilangan akses ke fitur eksklusif.")) {
+        try {
+          const res = await fetch('http://localhost:3000/api/downgrade', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: userSession.id })
+          });
+          const data = await res.json();
+
+          if (data.success) {
+            userSession.is_premium = 0;
+            localStorage.setItem('userSession', JSON.stringify(userSession));
+            alert("Paket Premium berhasil dibatalkan. Anda kembali ke paket Reguler.");
+            location.reload();
+          }
+        } catch (err) {
+          alert("Server sedang bermasalah atau belum dinyalakan.");
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

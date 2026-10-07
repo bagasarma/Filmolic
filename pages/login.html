@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - filmolic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { base: '#0b0b12', surface: '#16161f', 'surface-2': '#22222e', accent: '#6366f1', 'accent-soft': '#a5b4fc' },
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #0b0b12; color: #f4f4f5; }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 sm:p-8 font-sans antialiased">
+
+  <a href="index.html" class="absolute top-6 left-6 text-sm font-medium text-zinc-400 hover:text-white flex items-center gap-2 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6" /></svg>
+    Kembali ke Beranda
+  </a>
+
+  <div class="w-full max-w-md bg-surface p-8 rounded-2xl ring-1 ring-white/10 shadow-2xl">
+    <div class="flex justify-between items-start mb-8">
+      <div>
+        <h2 class="text-xl font-bold text-white">Sign In</h2>
+        <p class="text-sm text-zinc-400 mt-1">Login to stay connected</p>
+      </div>
+      <h1 class="text-3xl font-extrabold tracking-tight text-white mt-0.5">filmolic</h1>
+    </div>
+
+    <!-- Hapus action="index.html" dan ganti dengan onsubmit agar tidak reload -->
+    <form onsubmit="event.preventDefault(); handleLogin();" class="space-y-5">
+      <div>
+        <label for="Email" class="block text-sm font-medium text-zinc-300 mb-1.5">Email</label>
+        <input type="email" id="Email" placeholder="nama@email.com" class="w-full bg-base border border-white/10 rounded-lg px-4 py-2.5 text-white placeholder-zinc-600 focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition" required>
+      </div>
+
+      <div>
+        <label for="Password" class="block text-sm font-medium text-zinc-300 mb-1.5">Password</label>
+        <div class="relative">
+          <input type="password" id="Password" placeholder="••••••••" class="w-full bg-base border border-white/10 rounded-lg pl-4 pr-12 py-2.5 text-white placeholder-zinc-600 focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition" required>
+          <button type="button" onclick="togglePassword('Password', this)" class="absolute inset-y-0 right-0 flex items-center px-4 text-zinc-400 hover:text-white transition">
+            <svg class="eye-open block w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" /></svg>
+            <svg class="eye-closed hidden w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24" /><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68" /><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61" /><line x1="2" x2="22" y1="2" y2="22" /></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between text-sm mt-2">
+        <label class="flex items-center gap-2 cursor-pointer group">
+          <input type="checkbox" class="rounded border-white/10 bg-base text-accent focus:ring-accent accent-accent w-4 h-4 cursor-pointer">
+          <span class="text-zinc-400 group-hover:text-white transition">Remember me</span>
+        </label>
+        <a href="#" class="text-accent hover:text-accent-soft transition font-medium">Forgot Password?</a>
+      </div>
+
+      <!-- Ubah menjadi type="submit" -->
+      <button type="submit" class="w-full bg-accent hover:bg-indigo-600 text-white font-bold py-3 rounded-lg transition mt-6 shadow-lg">Sign In</button>
+    </form>
+    
+    <p class="text-sm text-zinc-400 mt-8">
+      Belum punya akun? <a href="register.html" class="text-accent hover:text-accent-soft font-bold transition">Sign Up</a>
+    </p>
+  </div>
+
+  <script>
+    function togglePassword(inputId, btnElement) {
+      const input = document.getElementById(inputId);
+      const eyeOpen = btnElement.querySelector('.eye-open');
+      const eyeClosed = btnElement.querySelector('.eye-closed');
+
+      if (input.type === 'password') {
+        input.type = 'text';
+        eyeOpen.classList.add('hidden');
+        eyeOpen.classList.remove('block');
+        eyeClosed.classList.remove('hidden');
+        eyeClosed.classList.add('block');
+      } else {
+        input.type = 'password';
+        eyeOpen.classList.remove('hidden');
+        eyeOpen.classList.add('block');
+        eyeClosed.classList.add('hidden');
+        eyeClosed.classList.remove('block');
+      }
+    }
+
+    async function handleLogin() {
+      const email = document.getElementById('Email').value;
+      const password = document.getElementById('Password').value;
+
+      try {
+        const res = await fetch('http://localhost:3000/api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password })
+        });
+        const data = await res.json();
+
+        if (data.success) {
+          // Simpan sesi dan langsung pindah halaman
+          localStorage.setItem('userSession', JSON.stringify(data.user));
+          window.location.href = 'index.html';
+        } else {
+          alert(data.message);
+        }
+      } catch (err) {
+        alert('Server sedang bermasalah atau belum dinyalakan.');
+      }
+    }
+  </script>
+</body>
+</html>

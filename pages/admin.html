@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - filmolic</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { colors: { base: '#0b0b12', surface: '#16161f', 'surface-2': '#22222e', accent: '#6366f1', 'accent-soft': '#a5b4fc' }, fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] } } } }
+  </script>
+  <style> body { background-color: #0b0b12; color: #f4f4f5; } </style>
+</head>
+<body class="min-h-screen font-sans antialiased flex flex-col">
+
+  <!-- NAVBAR ADMIN -->
+  <header class="sticky top-0 z-20 border-b border-white/5 bg-surface/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+      <div class="flex items-center gap-8">
+        <a href="admin.html" class="text-xl font-extrabold tracking-tight text-white flex items-center gap-2">
+          filmolic <span class="bg-accent/20 text-accent-soft text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider">Admin</span>
+        </a>
+        <ul class="flex items-center gap-5 text-sm font-medium text-zinc-400 hidden sm:flex">
+          <li><a href="index.html" class="transition hover:text-white">Beranda</a></li>
+        </ul>
+      </div>
+      <button onclick="handleLogout()" class="px-4 py-2 text-sm font-semibold bg-surface-2 hover:bg-white/10 text-white rounded-lg transition border border-white/5">Logout</button>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 w-full">
+    <h1 class="text-2xl font-bold text-white mb-6">Ringkasan Sistem</h1>
+    
+    <!-- STATISTIK CARDS -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+      <div class="bg-surface p-5 rounded-xl border border-white/5 flex flex-col">
+        <span class="text-sm text-zinc-400">Total Pengguna</span>
+        <span id="stat-users" class="text-3xl font-extrabold text-white mt-1">-</span>
+      </div>
+      <div class="bg-surface p-5 rounded-xl border border-white/5 flex flex-col">
+        <span class="text-sm text-zinc-400">Total Film (Database)</span>
+        <span id="stat-movies" class="text-3xl font-extrabold text-white mt-1">-</span>
+      </div>
+      <div class="bg-surface p-5 rounded-xl border border-white/5 flex flex-col">
+        <span class="text-sm text-zinc-400">Pendapatan Premium (Bulan ini)</span>
+        <span id="stat-revenue" class="text-3xl font-extrabold text-accent-soft mt-1">-</span>
+      </div>
+    </div>
+
+    <!-- TABEL KELOLA PENGGUNA -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-white mb-4">Kelola Pengguna</h2>
+      <div class="bg-surface border border-white/5 rounded-xl overflow-hidden overflow-x-auto">
+        <table class="w-full text-left text-sm text-zinc-300">
+          <thead class="bg-surface-2 text-zinc-400 text-xs uppercase font-semibold">
+            <tr>
+              <th class="px-4 py-3">Nama Pengguna</th>
+              <th class="px-4 py-3">Email</th>
+              <th class="px-4 py-3">Status Langganan</th>
+              <th class="px-4 py-3 text-right">Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="table-users" class="divide-y divide-white/5">
+            <!-- Data User Dimuat via JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TABEL KELOLA FILM -->
+    <!-- TABEL KELOLA FILM -->
+    <section>
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-white">Kelola Katalog Film</h2>
+        <div class="flex gap-3">
+          <!-- Tombol Restore/Refresh -->
+          <button onclick="syncMovies()" class="bg-surface-2 hover:bg-white/10 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold transition border border-white/10 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg> Restore 60 Film
+          </button>
+          <button onclick="alert('Fitur tambah film manual sedang dikembangkan.')" class="bg-accent hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg> Tambah Film
+          </button>
+        </div>
+      </div>
+      <div class="bg-surface border border-white/5 rounded-xl overflow-hidden overflow-x-auto">
+        <table class="w-full text-left text-sm text-zinc-300">
+          <thead class="bg-surface-2 text-zinc-400 text-xs uppercase font-semibold">
+            <tr>
+              <th class="px-4 py-3">ID TMDB</th>
+              <th class="px-4 py-3">Judul Film</th>
+              <th class="px-4 py-3">Tahun</th>
+              <th class="px-4 py-3">Hak Akses</th>
+              <th class="px-4 py-3 text-right">Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="table-movies" class="divide-y divide-white/5">
+             <!-- Data Film Dimuat via JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL EDIT HAK AKSES USER -->
+  <div id="modal-edit-user" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="bg-surface w-full max-w-sm rounded-2xl p-6 ring-1 ring-white/10 shadow-2xl">
+      <h3 class="text-xl font-bold text-white mb-1">Edit Hak Akses User</h3>
+      <p id="edit-user-name" class="text-sm text-zinc-400 mb-6">-</p>
+      
+      <div class="flex flex-col gap-3">
+        <!-- 2 Tombol Pemilihan Hak Akses -->
+        <button onclick="submitEditUser(true)" class="w-full py-3 rounded-lg bg-green-500/10 text-green-400 border border-green-500/20 font-bold hover:bg-green-500/20 transition">Eksklusif (Premium)</button>
+        <button onclick="submitEditUser(false)" class="w-full py-3 rounded-lg bg-zinc-500/10 text-zinc-400 border border-zinc-500/20 font-bold hover:bg-zinc-500/20 transition">Reguler (Gratis)</button>
+      </div>
+      
+      <button onclick="closeEditModal()" class="mt-6 w-full py-2.5 rounded-lg bg-surface-2 hover:bg-white/10 text-white text-sm font-semibold transition border border-white/5">Batal</button>
+    </div>
+  </div>
+
+  <script>
+    // 1. PROTEKSI HALAMAN (HANYA ADMIN)
+    const userSession = JSON.parse(localStorage.getItem('userSession'));
+    if (!userSession || userSession.role !== 'admin') {
+        alert("Akses Ditolak! Anda bukan Admin.");
+        window.location.href = 'index.html';
+    }
+
+    let currentEditingUserId = null;
+
+    // 2. FETCH STATISTIK
+    async function loadStats() {
+        try {
+            const res = await fetch('http://localhost:3000/api/admin/stats');
+            const data = await res.json();
+            document.getElementById('stat-users').innerText = data.total_users;
+            document.getElementById('stat-movies').innerText = data.total_movies;
+            // Format IDR Rupiah
+            document.getElementById('stat-revenue').innerText = "Rp " + data.revenue.toLocaleString('id-ID');
+        } catch (err) { console.error("Gagal load stats:", err); }
+    }
+
+    // 3. FETCH DAN RENDER USERS
+    async function loadUsers() {
+        try {
+            const res = await fetch('http://localhost:3000/api/admin/users');
+            const users = await res.json();
+            const tbody = document.getElementById('table-users');
+            
+            tbody.innerHTML = users.map(u => {
+                const badge = u.is_premium 
+                    ? `<span class="bg-green-500/10 text-green-400 px-2.5 py-1 rounded-md text-xs font-bold border border-green-500/20">Premium</span>`
+                    : `<span class="bg-zinc-500/10 text-zinc-400 px-2.5 py-1 rounded-md text-xs font-bold border border-zinc-500/20">Reguler</span>`;
+                
+                return `
+                <tr class="hover:bg-white/[0.02] transition">
+                  <td class="px-4 py-3 font-medium text-white">${u.username} ${u.role === 'admin' ? '(Admin)' : ''}</td>
+                  <td class="px-4 py-3 text-zinc-400">${u.email}</td>
+                  <td class="px-4 py-3">${badge}</td>
+                  <td class="px-4 py-3 text-right">
+                    <button onclick="openEditModal(${u.id}, '${u.username}')" class="text-accent hover:text-accent-soft text-xs font-medium mr-3">Edit</button>
+                    <button onclick="deleteUser(${u.id}, '${u.username}')" class="text-red-400 hover:text-red-300 text-xs font-medium">Hapus</button>
+                  </td>
+                </tr>`;
+            }).join('');
+        } catch (err) { console.error("Gagal load users:", err); }
+    }
+
+    // 4. FETCH DAN RENDER MOVIES
+    // FETCH DAN RENDER MOVIES (Menggunakan /api/movies)
+    async function loadMovies() {
+        try {
+            const res = await fetch('http://localhost:3000/api/movies');
+            const movies = await res.json();
+            const tbody = document.getElementById('table-movies');
+            
+            if (movies.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" class="px-4 py-8 text-center text-zinc-500">Katalog kosong. Silakan tekan tombol "Restore 60 Film".</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = movies.map(m => {
+                const badge = m.is_premium 
+                    ? `<span class="bg-yellow-500/10 text-yellow-500 px-2.5 py-1 rounded-md text-xs font-bold border border-yellow-500/20">Eksklusif (Premium)</span>`
+                    : `<span class="bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded-md text-xs font-bold border border-blue-500/20">Publik (Gratis)</span>`;
+                
+                return `
+                <tr class="hover:bg-white/[0.02] transition">
+                  <td class="px-4 py-3 text-zinc-500">${m.id}</td>
+                  <td class="px-4 py-3 font-medium text-white">${m.title}</td>
+                  <td class="px-4 py-3">${m.year}</td>
+                  <td class="px-4 py-3">${badge}</td>
+                  <td class="px-4 py-3 text-right">
+                    <button onclick="deleteMovie(${m.id}, '${m.title}')" class="text-red-400 hover:text-red-300 text-xs font-medium">Hapus</button>
+                  </td>
+                </tr>`;
+            }).join('');
+        } catch (err) { console.error("Gagal load movies:", err); }
+    }
+
+    // FUNGSI HAPUS SATU FILM
+    async function deleteMovie(id, title) {
+        if(confirm(`Apakah Anda yakin ingin menghapus film '${title}' dari sistem?`)) {
+            try {
+                const res = await fetch(`http://localhost:3000/api/admin/movies/${id}`, { method: 'DELETE' });
+                const data = await res.json();
+                if(data.success) {
+                    loadMovies(); // Refresh tabel film
+                    loadStats();  // Refresh total film di atas
+                }
+            } catch(err) { alert("Terjadi kesalahan pada server."); }
+        }
+    }
+
+    // FUNGSI RESTORE 60 FILM DARI JSON
+    async function syncMovies() {
+        if (confirm("PERINGATAN: Aksi ini akan menghapus semua film saat ini dan merestore 60 film default. Lanjutkan?")) {
+            try {
+                const res = await fetch('http://localhost:3000/api/admin/movies/sync', { method: 'POST' });
+                const data = await res.json();
+                
+                if (data.success) {
+                    alert(data.message);
+                    loadMovies();
+                    loadStats();
+                } else {
+                    alert("Gagal merestore film.");
+                }
+            } catch (err) { alert("Server bermasalah atau belum dinyalakan."); }
+        }
+    }
+
+    // --- LOGIKA EDIT & HAPUS USER ---
+
+    function openEditModal(id, name) {
+        currentEditingUserId = id;
+        document.getElementById('edit-user-name').innerText = "Mengubah hak akses untuk: " + name;
+        document.getElementById('modal-edit-user').classList.remove('hidden');
+    }
+
+    function closeEditModal() {
+        currentEditingUserId = null;
+        document.getElementById('modal-edit-user').classList.add('hidden');
+    }
+
+    async function submitEditUser(isPremium) {
+        if(!currentEditingUserId) return;
+        try {
+            const res = await fetch(`http://localhost:3000/api/admin/users/${currentEditingUserId}/role`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ is_premium: isPremium })
+            });
+            const data = await res.json();
+            if(data.success) {
+                closeEditModal();
+                loadUsers(); // Refresh tabel user
+                loadStats(); // Refresh statistik uang
+            }
+        } catch(err) { alert("Terjadi kesalahan pada server."); }
+    }
+
+    async function deleteUser(id, name) {
+        if(confirm(`PERINGATAN: Apakah Anda yakin ingin menghapus akun '${name}' secara permanen?`)) {
+            try {
+                const res = await fetch(`http://localhost:3000/api/admin/users/${id}`, { method: 'DELETE' });
+                const data = await res.json();
+                if(data.success) {
+                    loadUsers();
+                    loadStats();
+                }
+            } catch(err) { alert("Terjadi kesalahan pada server."); }
+        }
+    }
+
+    function handleLogout() {
+      if (confirm("Apakah Anda yakin ingin log out?")) {
+        localStorage.removeItem('userSession');
+        window.location.href = 'index.html'; 
+      }
+    }
+
+    // Inisialisasi
+    loadStats();
+    loadUsers();
+    loadMovies();
+  </script>
+</body>
+</html>
