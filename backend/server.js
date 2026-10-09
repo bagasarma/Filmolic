@@ -8,30 +8,63 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Konfigurasi Koneksi ke Database MySQL
-const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'db_filmolic'
+require('dotenv').config();
+
+// Konfigurasi Koneksi ke Database MySQL / MariaDB (mendukung Docker & Local)
+const db = mysql.createPool({
+    host: process.env.DB_HOST || 'localhost',
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD !== undefined ? process.env.DB_PASSWORD : '',
+    database: process.env.DB_NAME || 'db_filmolic',
+    port: process.env.DB_PORT ? parseInt(process.env.DB_PORT) : 3306,
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0
 });
 
-db.connect((err) => {
-    if (err) {
-        console.error('Koneksi database Gagal:', err);
-        return;
-    }
-    console.log('Berhasil terhubung ke Database MySQL!');
-});
+// Verifikasi koneksi database dengan retry jika MariaDB masih inisialisasi
+function initDatabase(retries = 10, delay = 3000) {
+    db.getConnection((err, connection) => {
+        if (err) {
+            console.error(`Koneksi database belum siap (${err.message}). Menghubungi ulang dalam ${delay / 1000}s... (sisa coba: ${retries})`);
+            if (retries > 0) {
+                setTimeout(() => initDatabase(retries - 1, delay), delay);
+            }
+            return;
+        }
+        console.log('Berhasil terhubung ke Database MySQL/MariaDB!');
+        connection.release();
 
-// 1. API Endpoint untuk mengambil semua film
-app.get('/api/movies', (req, res) => {
-    const filePath = path.join(__dirname, 'movies.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) return res.status(500).json({ error: 'Gagal memuat data film' });
-        res.json(JSON.parse(data));
+        // Inisialisasi otomatis: Jika tabel movies kosong, isi dari movies.json
+        db.query('SELECT COUNT(*) AS count FROM movies', (qErr, results) => {
+            if (!qErr && results && results[0] && results[0].count === 0) {
+                console.log('Tabel movies kosong. Mengisi 60 data film dari movies.json...');
+                const filePath = path.join(__dirname, 'movies.json');
+                fs.readFile(filePath, 'utf8', (readErr, data) => {
+                    if (readErr) return;
+                    try {
+                        const movies = JSON.parse(data);
+                        const values = movies.map(m => [
+                            m.id, m.title, m.year, m.genre, m.rating, m.poster, m.backdrop, m.overview, m.is_premium, JSON.stringify(m.cast)
+                        ]);
+                        const insertQuery = 'INSERT INTO movies (id, title, year, genre, rating, poster, backdrop, overview, is_premium, cast) VALUES ?';
+                        db.query(insertQuery, [values], (insErr) => {
+                            if (!insErr) {
+                                console.log('Semua film berhasil di-restore ke Database!');
+                            } else {
+                                console.error('Gagal restore film ke DB:', insErr.message);
+                            }
+                        });
+                    } catch (e) {
+                        console.error('Gagal membaca movies.json:', e);
+                    }
+                });
+            }
+        });
     });
-});
+}
+initDatabase();
+
 
 // 2. API Endpoint untuk Login User
 app.post('/api/login', (req, res) => {
@@ -188,16 +221,26 @@ app.get('/api/admin/movies', (req, res) => {
 });
 
 // ==========================================
-// ENDPOINT FILM (Baca dari Database, bukan JSON)
+// ENDPOINT FILM (Baca dari Database dengan fallback ke movies.json)
 // ==========================================
 app.get('/api/movies', (req, res) => {
     db.query('SELECT * FROM movies ORDER BY id DESC', (err, results) => {
-        if (err) return res.status(500).json({ error: err.message });
+        if (err || !results || results.length === 0) {
+            const filePath = path.join(__dirname, 'movies.json');
+            return fs.readFile(filePath, 'utf8', (readErr, data) => {
+                if (readErr) return res.status(500).json({ error: 'Gagal memuat data film' });
+                try {
+                    res.json(JSON.parse(data));
+                } catch (parseErr) {
+                    res.status(500).json({ error: 'Gagal parsing data film' });
+                }
+            });
+        }
         
-        // Format ulang data agar 100% sama dengan format JSON lama Anda
+        // Format ulang data agar 100% sama dengan format JSON
         const formattedMovies = results.map(m => ({
             ...m,
-            is_premium: m.is_premium === 1,
+            is_premium: m.is_premium === 1 || m.is_premium === true,
             cast: typeof m.cast === 'string' ? JSON.parse(m.cast) : m.cast
         }));
         
@@ -246,7 +289,7 @@ app.post('/api/admin/movies/sync', (req, res) => {
     });
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server Backend berjalan di http://localhost:${PORT}`);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server Backend berjalan di port ${PORT}`);
 });

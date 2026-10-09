@@ -1,0 +1,73 @@
+services:
+  # ==========================================
+  # Container 1: Database MariaDB
+  # ==========================================
+  db_filmolic_container:
+    image: mariadb:10.4
+    container_name: db_filmolic_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${DB_NAME:-db_filmolic}
+    ports:
+      - "${DB_PORT_MAPPING:-3306}:3306"
+    volumes:
+      - ./db_filmolic.sql:/docker-entrypoint-initdb.d/db_filmolic.sql
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - filmolic_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_PASSWORD:-rootpassword}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  # ==========================================
+  # Container 2: Backend Node.js / Express
+  # ==========================================
+  backend_filmolic_container:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend_filmolic_container
+    restart: always
+    ports:
+      - "${BACKEND_PORT:-3000}:3000"
+    environment:
+      PORT: 3000
+      DB_HOST: db_filmolic_container
+      DB_PORT: 3306
+      DB_USER: ${DB_USER:-root}
+      DB_PASSWORD: ${DB_PASSWORD:-rootpassword}
+      DB_NAME: ${DB_NAME:-db_filmolic}
+    depends_on:
+      db_filmolic_container:
+        condition: service_healthy
+    networks:
+      - filmolic_network
+
+  # ==========================================
+  # Container 3: Frontend Nginx (Reverse Proxy)
+  # ==========================================
+  frontend_filmolic_container:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend_filmolic_container
+    restart: always
+    ports:
+      - "${FRONTEND_PORT:-80}:80"
+    depends_on:
+      - backend_filmolic_container
+    networks:
+      - filmolic_network
+
+# Volume untuk data persistent database
+volumes:
+  mariadb_data:
+
+# Network terisolasi antar container
+networks:
+  filmolic_network:
+    driver: bridge
