@@ -1,4 +1,4 @@
-# Filmolic - Movie Streaming & Review Website
+# Filmolic - Catalog Movies
 
 Proyek website streaming dan ulasan film yang dibangun dengan arsitektur 3-tier dan dikontainerisasi menggunakan **Docker Compose**.
 
