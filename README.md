@@ -1,4 +1,4 @@
-# Filmolic - Movie Streaming & Review Website
+# Filmolic - Catalog Movies
 
 Proyek website streaming dan ulasan film yang dibangun dengan arsitektur 3-tier dan dikontainerisasi menggunakan **Docker Compose**.
 
@@ -35,16 +35,16 @@ docker compose ps
 ### 3. Melihat Log Kontainer
 ```bash
 # Log seluruh layanan
-docker compose logs -f
+docker logs -f
 
 # Log backend
-docker compose logs -f backend_filmolic_container
+docker logs -f backend_filmolic_container
 
 # Log database
-docker compose logs -f db_filmolic_container
+docker logs -f db_filmolic_container
 
 # Log frontend
-docker compose logs -f frontend_filmolic_container
+docker logs -f frontend_filmolic_container
 ```
 
 ### 4. Menghentikan Kontainer
