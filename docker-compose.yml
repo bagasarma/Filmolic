@@ -60,7 +60,7 @@ services:
       - "${FRONTEND_PORT:-80}:80"
     depends_on:
       - backend_filmolic_container
-    networks:
+    networks: 
       - filmolic_network
 
 # Volume untuk data persistent database

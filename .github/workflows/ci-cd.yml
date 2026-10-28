@@ -1,0 +1,41 @@
+name: CI/CD Pipeline Filmolic
+
+# Trigger: Pipeline berjalan otomatis setiap kali ada PUSH ke branch main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Mengambil source code terbaru dari repositori
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Login otomatis ke Docker Hub menggunakan Secret yang sudah disimpan
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # 3. Build & Push Image BACKEND ke Docker Hub
+      - name: Build and Push Backend Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./backend
+          file: ./backend/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/filmolic-backend:latest
+
+      # 4. Build & Push Image FRONTEND ke Docker Hub
+      - name: Build and Push Frontend Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./frontend
+          file: ./frontend/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/filmolic-frontend:latest
