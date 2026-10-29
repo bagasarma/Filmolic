@@ -27,6 +27,7 @@ services:
   # Container 2: Backend Node.js / Express
   # ==========================================
   backend_filmolic_container:
+    image: bagasarma/filmolic-backend:latest 
     build:
       context: ./backend
       dockerfile: Dockerfile
@@ -51,6 +52,7 @@ services:
   # Container 3: Frontend Nginx (Reverse Proxy)
   # ==========================================
   frontend_filmolic_container:
+    image: bagasarma/filmolic-frontend:latest
     build:
       context: ./frontend
       dockerfile: Dockerfile
